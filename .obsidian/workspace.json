@@ -1,0 +1,287 @@
+{
+  "main": {
+    "id": "0ee7ef426275482b",
+    "type": "split",
+    "children": [
+      {
+        "id": "493b81b550fd7da3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc8735eaa9053706",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PAPER/通用/阅读/软件+插件.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "软件+插件"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f7716c2ca4c8bae7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fd14ec494f45c5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3c519ac0cbe4902",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "cockpit",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "e379a9945c958355",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "76da95666f0625a7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 217.5019874572754
+  },
+  "right": {
+    "id": "32126cf5faec4a57",
+    "type": "split",
+    "children": [
+      {
+        "id": "3747c9b80164f69e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39a15fc698c075c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PAPER/通用/阅读/软件+插件.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "软件+插件 的反向链接列表"
+            }
+          },
+          {
+            "id": "f27a12a56b3c056d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PAPER/通用/阅读/软件+插件.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "软件+插件 的出链列表"
+            }
+          },
+          {
+            "id": "d911000e73263ce3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "8a51c24e4361ac67",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e2e01f07ea84c984",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "2a96db9a3ae0d5e6",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "PAPER/通用/阅读/软件+插件.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          },
+          {
+            "id": "4405c6495f93b3dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "PAPER/通用/阅读/软件+插件.md"
+              },
+              "icon": "lucide-info",
+              "title": "软件+插件的笔记属性"
+            }
+          },
+          {
+            "id": "d102f986e074b475",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": true,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "bases:新建数据库": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": true,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "cc8735eaa9053706",
+  "lastOpenFiles": [
+    "PAPER/通用/阅读/论文的提示🦄.md",
+    "PAPER/通用/阅读/软件+插件.md",
+    "大模型/力扣——Python/重点背！.md",
+    "withAI/xClawer.ai/TODO/TODO-LIST.md",
+    "withAI/登录.md",
+    "withAI/前置知识/Codex.md",
+    "withAI/xClawer.ai/相关技术学习.md",
+    "imgs/2026-06-03/file-2026-06-03-165412481.png",
+    "imgs/2026-06-03/file-2026-06-03-165030454.png",
+    "imgs/2026-06-03",
+    "PAPER/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "PAPER/World model/(20260202) EchoJEPA A Latent Predictive Foundation Model for Echocardiography.md",
+    "PAPER/通用/撰写/LaTex.md",
+    "withAI/简历/可能的点.md",
+    "AI 赋能 内化 原生 嵌入/！定.md",
+    "Common Sense/日常出行.md",
+    "辅导/大一/线上沟通.md",
+    "Common Sense/看房看车.md",
+    "imgs/2026-06-02/file-2026-06-02-170047215.png",
+    "imgs/2026-06-02",
+    "baidu/stage-1-学习——编程语言/linux + shell.md",
+    "imgs/2026-06-01/file-2026-06-01-220128714.png",
+    "imgs/2026-06-01/file-2026-06-01-220009538.png",
+    "imgs/2026-06-01/file-2026-06-01-215538713.png",
+    "imgs/2026-06-01/file-2026-06-01-173719107.png",
+    "Common Sense/电子设备.md",
+    "Common Sense/涨知识了.md",
+    "Common Sense/上网必备.md",
+    "Common Sense/生活日常.md",
+    "Common Sense/工作积累.md",
+    "imgs/2026-06-01/file-2026-06-01-163606355.png",
+    "imgs/2026-06-01",
+    "imgs/2026-05-31/file-2026-05-31-221729707.png",
+    "imgs/2026-05-31/file-2026-05-31-220048749.png",
+    "imgs/2026-05-31",
+    "Common Sense/全国地点.md",
+    "Common Sense/游戏积累.md",
+    "Common Sense/完美计划.md",
+    "withAI/xClawer.ai/项目介绍.md",
+    "辅导/大一/4次分享的材料.md",
+    "imgs/2026-05-29",
+    "imgs/2026-05-28",
+    "PAPER/Med/未命名.base",
+    "imgs/2026-05-27",
+    "PAPER/通用/代码",
+    "PAPER/通用/撰写",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}
