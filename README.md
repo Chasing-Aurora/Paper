@@ -1,0 +1,3 @@
+- 以后最佳流程是：GitHub 新建仓库时不要勾选 README/LICENSE/.gitignore，创建一个真正空仓库
+	- 要不然 后续会报错的！！！
+- 

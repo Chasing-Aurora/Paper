@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PAPER/通用/阅读/软件+插件.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "软件+插件"
+              "title": "README"
             }
           }
         ]
@@ -235,8 +235,9 @@
   },
   "active": "cc8735eaa9053706",
   "lastOpenFiles": [
-    "PAPER/通用/阅读/论文的提示🦄.md",
     "PAPER/通用/阅读/软件+插件.md",
+    "README.md",
+    "PAPER/通用/阅读/论文的提示🦄.md",
     "大模型/力扣——Python/重点背！.md",
     "withAI/xClawer.ai/TODO/TODO-LIST.md",
     "withAI/登录.md",
@@ -274,7 +275,6 @@
     "Common Sense/游戏积累.md",
     "Common Sense/完美计划.md",
     "withAI/xClawer.ai/项目介绍.md",
-    "辅导/大一/4次分享的材料.md",
     "imgs/2026-05-29",
     "imgs/2026-05-28",
     "PAPER/Med/未命名.base",
