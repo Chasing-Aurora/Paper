@@ -42,6 +42,7 @@ $itemKey: 4WSWEIP9
 
 <a href="./(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md" rel="noopener noreferrer nofollow" zhref="zotero://note/u/4WSWEIP9/?ignore=1" ztype="znotelink" class="internal-link">(2026/02/02) EchoJEPA: A Latent Predictive Foundation Model for Echocardiography</a>
 
+
 ### 💧 Data
 
 ### 👩🏻‍💻 Method

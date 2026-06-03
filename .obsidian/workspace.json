@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "493b81b550fd7da3",
+        "id": "ed2f71fbc93e742d",
         "type": "tabs",
         "children": [
           {
-            "id": "cc8735eaa9053706",
+            "id": "7678aa64e4f81420",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "UPUPUP/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9"
             }
           }
         ]
@@ -138,12 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "UPUPUP/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9 的大纲"
             }
           },
           {
@@ -210,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -233,8 +234,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76da95666f0625a7",
+  "active": "7678aa64e4f81420",
   "lastOpenFiles": [
+    "storage/84QQEUT2/Munim 等 - 2026 - EchoJEPA A Latent Predictive Foundation Model for Echocardiography.pdf",
+    "storage/CRL6378P/Shi 等 - MDFformer A Multi-Scale Dual-Modal Fusion Transformer for Semantic Segmentation.pdf",
+    "storage/F9P7XS7S/~$final camera-ready.docx",
+    "UPUPUP/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "README.md",
     "UPUPUP/通用/代码/Training Tricks.md",
     "UPUPUP/通用/阅读/软件+插件.md",
     "UPUPUP/通用/阅读/论文的提示🦄.md",
@@ -248,7 +254,6 @@
     "UPUPUP/通用/撰写",
     "UPUPUP/GRSL/返修-2.md",
     "UPUPUP/World model/电影.md",
-    "UPUPUP/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "UPUPUP/论文精读/霹雳吧啦-语义分割.md",
     "UPUPUP/论文精读/李沐论文精度系列.md",
     "UPUPUP/论文精读/同济子豪兄-GNN.md",
@@ -265,12 +270,8 @@
     "UPUPUP/论文精读",
     "UPUPUP/GRSL",
     "UPUPUP/Med",
-    "UPUPUP/Agent",
-    "UPUPUP",
     "PAPER/通用/阅读/软件+插件.md",
-    "README.md",
     "PAPER/通用/阅读/论文的提示🦄.md",
-    "大模型/力扣——Python/重点背！.md",
     "imgs/2026-06-03/file-2026-06-03-165412481.png",
     "imgs/2026-06-03/file-2026-06-03-165030454.png",
     "imgs/2026-06-02/file-2026-06-02-170047215.png",
