@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UPUPUP/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9"
+              "title": "README"
             }
           }
         ]
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UPUPUP/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -234,44 +234,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7678aa64e4f81420",
+  "active": "76da95666f0625a7",
   "lastOpenFiles": [
-    "storage/84QQEUT2/Munim 等 - 2026 - EchoJEPA A Latent Predictive Foundation Model for Echocardiography.pdf",
-    "storage/CRL6378P/Shi 等 - MDFformer A Multi-Scale Dual-Modal Fusion Transformer for Semantic Segmentation.pdf",
-    "storage/F9P7XS7S/~$final camera-ready.docx",
     "UPUPUP/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "Zotero_data.lnk",
+    "新快捷方式.lnk",
+    "PAPER/通用/撰写/表格图片的样式.md",
+    "PAPER/通用/撰写/文章的框架.md",
+    "PAPER/通用/阅读/论文的提示🦄.md",
+    "PAPER/通用/撰写/回复审稿.md",
+    "PAPER/通用/撰写/LaTex.md",
+    "PAPER/通用/阅读/软件+插件.md",
+    "PAPER/通用/代码/Training Tricks.md",
+    "PAPER/通用/阅读/检索、下载、评论.md",
+    "PAPER/通用/撰写",
+    "PAPER/通用/代码",
+    "PAPER/通用/阅读",
+    "PAPER/论文精读/同济子豪兄-GNN.md",
+    "PAPER/论文精读/霹雳吧啦-语义分割.md",
+    "PAPER/GRSL/返修-2.md",
+    "PAPER/论文精读/李沐论文精度系列.md",
+    "PAPER/GRSL/返修.md",
+    "PAPER/Med/Base-knowledge.md",
+    "PAPER/论文精读/DeepSeek 系列论文.md",
+    "PAPER/GRSL/segformer.md",
+    "PAPER/GRSL/投稿流程.md",
+    "PAPER/GRSL/transformer.md",
+    "PAPER/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "PAPER/GRSL/Hints.md",
+    "PAPER/GRSL/AI4.md",
+    "PAPER/World model/电影.md",
+    "PAPER/通用",
+    "PAPER/论文精读",
+    "PAPER/Med",
+    "PAPER/GRSL",
+    "PAPER/World model",
     "README.md",
     "UPUPUP/通用/代码/Training Tricks.md",
-    "UPUPUP/通用/阅读/软件+插件.md",
-    "UPUPUP/通用/阅读/论文的提示🦄.md",
-    "UPUPUP/通用/阅读/检索、下载、评论.md",
-    "UPUPUP/通用/撰写/表格图片的样式.md",
-    "UPUPUP/通用/撰写/文章的框架.md",
-    "UPUPUP/通用/撰写/回复审稿.md",
-    "UPUPUP/通用/撰写/LaTex.md",
-    "UPUPUP/通用/代码",
-    "UPUPUP/通用/阅读",
-    "UPUPUP/通用/撰写",
-    "UPUPUP/GRSL/返修-2.md",
-    "UPUPUP/World model/电影.md",
-    "UPUPUP/论文精读/霹雳吧啦-语义分割.md",
-    "UPUPUP/论文精读/李沐论文精度系列.md",
-    "UPUPUP/论文精读/同济子豪兄-GNN.md",
-    "UPUPUP/论文精读/DeepSeek 系列论文.md",
-    "UPUPUP/GRSL/返修.md",
-    "UPUPUP/GRSL/投稿流程.md",
-    "UPUPUP/GRSL/transformer.md",
-    "UPUPUP/GRSL/segformer.md",
-    "UPUPUP/GRSL/Hints.md",
-    "UPUPUP/GRSL/AI4.md",
-    "UPUPUP/Med/Base-knowledge.md",
-    "UPUPUP/通用",
-    "UPUPUP/World model",
-    "UPUPUP/论文精读",
-    "UPUPUP/GRSL",
-    "UPUPUP/Med",
-    "PAPER/通用/阅读/软件+插件.md",
-    "PAPER/通用/阅读/论文的提示🦄.md",
     "imgs/2026-06-03/file-2026-06-03-165412481.png",
     "imgs/2026-06-03/file-2026-06-03-165030454.png",
     "imgs/2026-06-02/file-2026-06-02-170047215.png",
