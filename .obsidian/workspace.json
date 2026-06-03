@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "通用/阅读/软件+插件.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "软件+插件"
             }
           }
         ]
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "通用/阅读/软件+插件.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "软件+插件 的大纲"
             }
           },
           {
@@ -234,16 +234,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7678aa64e4f81420",
+  "active": "76da95666f0625a7",
   "lastOpenFiles": [
-    "GRSL/投稿流程.md",
+    "产出",
+    "新建文件夹",
+    "方向",
+    "通用/撰写/表格图片的样式.md",
+    "通用/撰写/回复审稿.md",
     "README.md",
+    "通用/AI 赋能/自动化科研.md",
+    "通用/AI 赋能/论文写作.md",
+    "通用/AI 赋能",
+    "通用/AI/论文写作.md",
+    "通用/AI/自动化科研.md",
+    "通用/AI",
+    "通用/科研/论文写作.md",
+    "通用/科研/自动化科研.md",
+    "通用/科研",
+    "GRSL/投稿流程.md",
     "通用/阅读/软件+插件.md",
     "通用/阅读/论文的提示🦄.md",
     "通用/阅读/检索、下载、评论.md",
-    "通用/撰写/表格图片的样式.md",
     "通用/撰写/文章的框架.md",
-    "通用/撰写/回复审稿.md",
     "通用/撰写/LaTex.md",
     "通用/代码/Training Tricks.md",
     "通用/阅读",
@@ -257,21 +269,9 @@
     "论文精读",
     "World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "World model/电影.md",
-    "World model",
     "Med/Base-knowledge.md",
-    "Med",
     "GRSL/返修.md",
     "GRSL/返修-2.md",
-    "GRSL/transformer.md",
-    "GRSL/Hints.md",
-    "GRSL/segformer.md",
-    "GRSL/AI4.md",
-    "GRSL",
-    "Agent",
-    "UPUPUP/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
-    "Zotero_data.lnk",
-    "PAPER/通用/撰写/表格图片的样式.md",
-    "PAPER/通用/撰写/文章的框架.md",
     "imgs/2026-06-03/file-2026-06-03-165412481.png",
     "imgs/2026-06-03/file-2026-06-03-165030454.png",
     "imgs/2026-06-02/file-2026-06-02-170047215.png",
