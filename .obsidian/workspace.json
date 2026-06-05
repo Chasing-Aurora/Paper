@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通用/阅读/软件+插件.md",
+                "file": "通用/组卡和租卡.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "软件+插件"
+              "title": "组卡和租卡"
             }
           }
         ],
@@ -163,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通用/阅读/软件+插件.md",
+                "file": "通用/组卡和租卡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "软件+插件 的大纲"
+              "title": "组卡和租卡 的大纲"
             }
           },
           {
@@ -261,6 +261,8 @@
   },
   "active": "6e3a0c35e77eb3ec",
   "lastOpenFiles": [
+    "通用/阅读/软件+插件.md",
+    "通用/组卡和租卡.md",
     "imgs/2026-06-05/网易有道翻译.lnk",
     "imgs/2026-06-05/file-2026-06-05-110749946.png",
     "imgs/2026-06-05",
@@ -268,7 +270,6 @@
     "imgs/2026-06-04/file-2026-06-04-223023037.png",
     "imgs/2026-06-04",
     "通用/阅读/检索、下载、评论.md",
-    "通用/阅读/软件+插件.md",
     "通用/阅读/论文的提示🦄.md",
     "通用/AI 赋能/论文写作.md",
     "方向/World model/电影.md",
@@ -292,7 +293,6 @@
     "通用/撰写/回复审稿.md",
     "README.md",
     "通用/AI 赋能/自动化科研.md",
-    "通用/AI 赋能",
     "通用/AI/论文写作.md",
     "通用/AI/自动化科研.md",
     "通用/科研/论文写作.md",
