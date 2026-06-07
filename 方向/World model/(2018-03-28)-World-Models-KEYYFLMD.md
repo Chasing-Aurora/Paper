@@ -53,7 +53,8 @@ $itemKey: KEYYFLMD
 > Tips: What aspects did you question, how do you think it can be improved?
 
 ### 🙋‍♀️ Key Records
-
+- 进步之快
+	- 2015年 语义分割的开山之作《Fully Convolutional Networks for Semantic Segmentation》 FCN 
 
 
 
