@@ -55,7 +55,8 @@ $itemKey: KEYYFLMD
 ### 🙋‍♀️ Key Records
 - 进步之快
 	- 2015年 语义分割的开山之作《Fully Convolutional Networks for Semantic Segmentation》 FCN 
-	- 2018年 大模型的开始之作 《Improving Language Understanding by Generative Pre-Training》 GPT
+	- 2018年6月 大模型的开山之作 《Improving Language Understanding by Generative Pre-Training》 GPT
+	- 2018年3月 世界模型的开山之作 《World Models》 WM
 	- 
 
 
