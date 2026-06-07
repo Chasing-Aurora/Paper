@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "(2018-03-28)-World-Models-KEYYFLMD"
             }
+          },
+          {
+            "id": "776c2f787c1f6d6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "通用/阅读/软件+插件+阅读.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "软件+插件+阅读"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -187,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
+                "file": "通用/阅读/软件+插件+阅读.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(2018-03-28)-World-Models-KEYYFLMD 的大纲"
+              "title": "软件+插件+阅读 的大纲"
             }
           },
           {
@@ -283,10 +307,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d12af33da5cb39aa",
+  "active": "776c2f787c1f6d6c",
   "lastOpenFiles": [
-    "论文精读/DeepSeek 系列论文.md",
     "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
+    "论文精读/DeepSeek 系列论文.md",
     "通用/组卡和租卡.md",
     "方向/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "方向/World model/(2018-03-28) World Models.md",
