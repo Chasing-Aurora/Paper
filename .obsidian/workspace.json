@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/World model/前置的概念.md",
+                "file": "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前置的概念"
+              "title": "(2018-03-28)-World-Models-KEYYFLMD"
             }
           },
           {
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/前置的概念.md",
+                "file": "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "前置的概念 的大纲"
+              "title": "(2018-03-28)-World-Models-KEYYFLMD 的大纲"
             }
           },
           {
@@ -333,6 +333,8 @@
   },
   "active": "83f6c166f3f8fcb1",
   "lastOpenFiles": [
+    "方向/World model/前置的概念.md",
+    "方向/World model/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
     "imgs/2026-06-08/file-2026-06-08-154404097.png",
     "imgs/2026-06-08/file-2026-06-08-154209655.png",
     "imgs/2026-06-08/file-2026-06-08-131320300.png",
@@ -340,7 +342,6 @@
     "通用/阅读/软件+插件+阅读.md",
     "通用/组卡和租卡.md",
     "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
-    "方向/World model/前置的概念.md",
     "imgs/2026-06-07/file-2026-06-07-214909669.png",
     "imgs/2026-06-07/file-2026-06-07-160313081.png",
     "imgs/2026-06-07/file-2026-06-07-160225521.png",
@@ -352,7 +353,6 @@
     "方向/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "方向/World model/(2018-03-28) World Models.md",
     "imgs/2026-06-07/file-2026-06-07-103614600.png",
-    "imgs/2026-06-07/file-2026-06-07-102017975.png",
     "imgs/2026-06-07",
     "imgs/2026-06-06",
     "通用/代码/Training Tricks.md",
