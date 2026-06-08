@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
+                "file": "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "(2018-03-28)-World-Models-KEYYFLMD"
+              "title": "(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通用/阅读/软件+插件+阅读.md",
+                "file": "方向/World model/前置的概念.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +124,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "软件+插件+阅读"
+              "title": "前置的概念"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
+                "file": "方向/World model/前置的概念.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(2018-03-28)-World-Models-KEYYFLMD 的大纲"
+              "title": "前置的概念 的大纲"
             }
           },
           {
@@ -331,17 +331,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83f6c166f3f8fcb1",
+  "active": "1a2bfe7a9eb9705d",
   "lastOpenFiles": [
+    "方向/World model/JEPA/发展路线.md",
     "方向/World model/前置的概念.md",
-    "方向/World model/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
+    "方向/World model/JEPA",
+    "通用/阅读/软件+插件+阅读.md",
+    "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
+    "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
     "imgs/2026-06-08/file-2026-06-08-154404097.png",
     "imgs/2026-06-08/file-2026-06-08-154209655.png",
     "imgs/2026-06-08/file-2026-06-08-131320300.png",
     "imgs/2026-06-08",
-    "通用/阅读/软件+插件+阅读.md",
     "通用/组卡和租卡.md",
-    "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
     "imgs/2026-06-07/file-2026-06-07-214909669.png",
     "imgs/2026-06-07/file-2026-06-07-160313081.png",
     "imgs/2026-06-07/file-2026-06-07-160225521.png",
@@ -350,7 +352,7 @@
     "imgs/2026-06-07/file-2026-06-07-131130890.png",
     "方向/World model/电影.md",
     "论文精读/DeepSeek 系列论文.md",
-    "方向/World model/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "方向/World model/(2018-03-28) World Models.md",
     "imgs/2026-06-07/file-2026-06-07-103614600.png",
     "imgs/2026-06-07",
@@ -373,12 +375,10 @@
     "产出/GRSL",
     "方向/World model",
     "方向/Med/Base-knowledge.md",
-    "方向/Med",
     "通用/撰写/表格图片的样式.md",
     "通用/撰写/回复审稿.md",
     "README.md",
     "通用/AI 赋能/自动化科研.md",
-    "通用/AI/论文写作.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]

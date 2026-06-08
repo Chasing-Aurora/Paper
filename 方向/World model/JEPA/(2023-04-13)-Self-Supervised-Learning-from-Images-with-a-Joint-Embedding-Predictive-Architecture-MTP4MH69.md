@@ -31,7 +31,9 @@ $itemKey: MTP4MH69
 
 ### ⚙️ Content
 
-\[]\(<https://www.youtube.com/watch?v=t_RvDTzi3vU&t=2839s>)
+[论文精度讲解](<https://www.youtube.com/watch?v=t_RvDTzi3vU&t=2839s>)
+
+
 
 ### 💡 Innovations
 
