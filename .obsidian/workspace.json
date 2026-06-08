@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通用/组卡和租卡.md",
+                "file": "方向/GNN/前置的概念.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "组卡和租卡 的大纲"
+              "title": "前置的概念 的大纲"
             }
           },
           {
@@ -331,8 +331,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e3a0c35e77eb3ec",
+  "active": "1a2bfe7a9eb9705d",
   "lastOpenFiles": [
+    "通用/组卡和租卡.md",
     "方向/GNN/前置的概念.md",
     "方向/World model/前置的概念.md",
     "方向/GNN",
@@ -353,7 +354,6 @@
     "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
     "imgs/2026-06-08/file-2026-06-08-154404097.png",
     "imgs/2026-06-08",
-    "通用/组卡和租卡.md",
     "方向/World model/电影.md",
     "论文精读/DeepSeek 系列论文.md",
     "方向/World model/(2018-03-28) World Models.md",
