@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/World model/前置的概念.md",
+                "file": "方向/World model/JEPA/发展路线.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前置的概念"
+              "title": "发展路线"
             }
           }
         ],
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/前置的概念.md",
+                "file": "方向/World model/JEPA/发展路线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "前置的概念 的大纲"
+              "title": "发展路线 的大纲"
             }
           },
           {
@@ -333,14 +333,15 @@
   },
   "active": "1a2bfe7a9eb9705d",
   "lastOpenFiles": [
+    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "方向/World model/JEPA/发展路线.md",
+    "方向/World model/前置的概念.md",
     "imgs/2026-06-08/file-2026-06-08-201301766.png",
     "imgs/2026-06-08/file-2026-06-08-194514602.png",
     "imgs/2026-06-08/file-2026-06-08-182529021.png",
     "imgs/2026-06-08/file-2026-06-08-181101884.png",
     "imgs/2026-06-08/file-2026-06-08-180626814.png",
     "imgs/2026-06-08/file-2026-06-08-175527500.png",
-    "方向/World model/前置的概念.md",
     "imgs/2026-06-08/file-2026-06-08-175051061.png",
     "imgs/2026-06-08/file-2026-06-08-174949372.png",
     "imgs/2026-06-08/file-2026-06-08-173028346.png",
@@ -353,7 +354,6 @@
     "通用/组卡和租卡.md",
     "方向/World model/电影.md",
     "论文精读/DeepSeek 系列论文.md",
-    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "方向/World model/(2018-03-28) World Models.md",
     "imgs/2026-06-07",
     "imgs/2026-06-06",

@@ -60,6 +60,14 @@ $itemKey: 4WSWEIP9
 
 ### 🙋‍♀️ Key Records
 
+
 ### 📌 To be resolved
 
+
 ### 💭 Thought Inspiration
+- 所以 JEPA 非常适合 的就是 医学影像领域！！！
+	- ==EchoJEPA！！！
+		- 可以用于 其他的 疾病/其他的超声 迁移过来！！！
+		- 把最新 的通用JEPA 的方法迁移过来！！！
+	-  因为 很多医学影响 已经包含了 大量噪声和伪影
+
