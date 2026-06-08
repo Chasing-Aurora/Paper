@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/GNN/前置的概念.md",
+                "file": "通用/组卡和租卡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "前置的概念 的大纲"
+              "title": "组卡和租卡 的大纲"
             }
           },
           {
@@ -331,10 +331,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a2bfe7a9eb9705d",
+  "active": "6e3a0c35e77eb3ec",
   "lastOpenFiles": [
-    "方向/World model/前置的概念.md",
     "方向/GNN/前置的概念.md",
+    "方向/World model/前置的概念.md",
     "方向/GNN",
     "方向/World model/JEPA/发展路线.md",
     "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
