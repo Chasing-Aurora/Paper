@@ -80,12 +80,12 @@
             }
           },
           {
-            "id": "83f6c166f3f8fcb1",
+            "id": "1a2bfe7a9eb9705d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
+                "file": "方向/GNN/前置的概念.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69"
+              "title": "前置的概念"
             }
           },
           {
-            "id": "1a2bfe7a9eb9705d",
+            "id": "ccf07f9a71c4c42d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/GNN/前置的概念.md",
+                "file": "方向/World model/前置的概念.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/GNN/前置的概念.md",
+                "file": "方向/World model/前置的概念.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -331,10 +331,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a2bfe7a9eb9705d",
+  "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
-    "论文精读/李沐论文精度系列.md",
     "方向/GNN/前置的概念.md",
+    "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
+    "论文精读/李沐论文精度系列.md",
     "论文精读/同济子豪兄-GNN.md",
     "通用/组卡和租卡.md",
     "方向/World model/前置的概念.md",
@@ -352,7 +353,6 @@
     "imgs/2026-06-08/file-2026-06-08-173028346.png",
     "方向/World model/JEPA",
     "通用/阅读/软件+插件+阅读.md",
-    "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
     "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
     "imgs/2026-06-08/file-2026-06-08-154404097.png",
     "imgs/2026-06-08",
