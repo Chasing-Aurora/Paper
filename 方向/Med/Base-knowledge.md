@@ -9,7 +9,8 @@
 - resonance  n.共鸣
 - resonate  v.共鸣
 - ultrasound cleaner 超声波清洗器
-- 
+- spin   v.旋转
+- tomography  n.断层成像
 
 
 
