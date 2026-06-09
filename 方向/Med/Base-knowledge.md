@@ -8,6 +8,7 @@
 - magnetic  adj.有磁性的
 - resonance  n.共鸣
 - resonate  v.共鸣
+- ultrasound cleaner 超声波清洗器
 - 
 
 
