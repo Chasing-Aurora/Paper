@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/Med/Base-knowledge.md",
+                "file": "方向/Med/医学数据集.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Base-knowledge"
+              "title": "医学数据集"
             }
           }
         ],
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/Med/Base-knowledge.md",
+                "file": "方向/Med/医学数据集.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Base-knowledge 的大纲"
+              "title": "医学数据集 的大纲"
             }
           },
           {
@@ -333,6 +333,10 @@
   },
   "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
+    "方向/Med/医学期刊.md",
+    "方向/Med/医学数据集.md",
+    "方向/Med/医学影像.md",
+    "imgs/2026-06-09/file-2026-06-09-165819633.png",
     "imgs/2026-06-09/file-2026-06-09-154301391.png",
     "imgs/2026-06-09/file-2026-06-09-150415156.png",
     "imgs/2026-06-09/file-2026-06-09-134136846.png",
@@ -352,8 +356,6 @@
     "imgs/2026-06-08/file-2026-06-08-194514602.png",
     "imgs/2026-06-08/file-2026-06-08-182529021.png",
     "imgs/2026-06-08/file-2026-06-08-181101884.png",
-    "imgs/2026-06-08/file-2026-06-08-180626814.png",
-    "imgs/2026-06-08/file-2026-06-08-175527500.png",
     "方向/World model/JEPA",
     "通用/阅读/软件+插件+阅读.md",
     "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
@@ -377,8 +379,6 @@
     "产出/GRSL/transformer.md",
     "产出/GRSL/segformer.md",
     "产出/GRSL/Hints.md",
-    "产出/GRSL/AI4.md",
-    "方向/Med/Base-knowledge.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
