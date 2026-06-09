@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/Med/医学数据集.md",
+                "file": "方向/Med/医学影像.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "医学数据集"
+              "title": "医学影像"
             }
           }
         ],
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/Med/医学数据集.md",
+                "file": "方向/Med/医学影像.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "医学数据集 的大纲"
+              "title": "医学影像 的大纲"
             }
           },
           {
@@ -333,9 +333,10 @@
   },
   "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
+    "方向/Med/医学比赛.md",
+    "方向/Med/医学影像.md",
     "方向/Med/医学期刊.md",
     "方向/Med/医学数据集.md",
-    "方向/Med/医学影像.md",
     "imgs/2026-06-09/file-2026-06-09-165819633.png",
     "imgs/2026-06-09/file-2026-06-09-154301391.png",
     "imgs/2026-06-09/file-2026-06-09-150415156.png",
@@ -378,7 +379,6 @@
     "产出/GRSL/投稿流程.md",
     "产出/GRSL/transformer.md",
     "产出/GRSL/segformer.md",
-    "产出/GRSL/Hints.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
