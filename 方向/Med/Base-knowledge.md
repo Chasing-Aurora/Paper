@@ -4,9 +4,11 @@
 - 甲状腺结节可结合超声与核医学评估性质
 ![](../../imgs/2026-06-09/file-2026-06-09-154301391.png)
 
-- magnet   磁贴
-- magnetic  有磁性的
-
+- magnet   n.磁铁
+- magnetic  adj.有磁性的
+- resonance  n.共鸣
+- resonate  v.共鸣
+- 
 
 
 
