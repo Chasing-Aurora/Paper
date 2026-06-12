@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/World model/JEPA/发展路线.md",
+                "file": "论文精读/李沐论文精度系列.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "发展路线"
+              "title": "李沐论文精度系列"
             }
           },
           {
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/JEPA/发展路线.md",
+                "file": "论文精读/李沐论文精度系列.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "发展路线 的大纲"
+              "title": "李沐论文精度系列 的大纲"
             }
           },
           {
@@ -333,10 +333,11 @@
   },
   "active": "1a2bfe7a9eb9705d",
   "lastOpenFiles": [
+    "论文精读/同济子豪兄-GNN.md",
+    "论文精读/李沐论文精度系列.md",
+    "方向/World model/JEPA/发展路线.md",
     "方向/World model/前置的概念.md",
     "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
-    "方向/World model/JEPA/发展路线.md",
-    "论文精读/李沐论文精度系列.md",
     "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
     "方向/Med/医学影像.md",
     "imgs/2026-06-12/file-2026-06-12-161050297.png",
@@ -352,7 +353,6 @@
     "imgs/2026-06-11/file-2026-06-11-175128212.png",
     "方向/GNN/前置的概念.md",
     "imgs/2026-06-11/file-2026-06-11-174308975.png",
-    "论文精读/同济子豪兄-GNN.md",
     "imgs/2026-06-11",
     "imgs/2026-06-10",
     "方向/Med/医学比赛.md",
