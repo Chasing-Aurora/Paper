@@ -72,4 +72,5 @@ $itemKey: 4WSWEIP9
 
 
 
+- MC-JEPA：引入动态理解 用于 实时的分割
 - 
