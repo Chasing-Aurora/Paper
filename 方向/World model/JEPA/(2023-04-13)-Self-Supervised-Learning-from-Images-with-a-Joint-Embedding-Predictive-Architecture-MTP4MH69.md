@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1267
+$version: 1275
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -50,6 +50,7 @@ $itemKey: MTP4MH69
     *   SimCLR / SimCLRv2：对比学习标杆
     *   MoCo (Momentum Contrast)：动量对比学习，引入**<span style="color: rgb(0, 0, 0);"><span style="">动量编码器 + 队列</span></span>**存储大量负样本
     *   BYOL (Bootstrap Your Own Latent)：依靠**<span style="color: rgb(0, 0, 0);"><span style="">动量网络 + 预测头</span></span>**，仅约束同一图像两个视图特征对齐，彻底摆脱负样本依赖
+    *   但是这种 对比的方法，是 hard-code ，是硬编码的！对于 分类、分割等需要不同的处理——I-JEPA中所说
 
 *   生成式方法：让模型完成图像补全、降噪、重建等生成任务，自主挖掘图像纹理、结构、语义等视觉规律
 
