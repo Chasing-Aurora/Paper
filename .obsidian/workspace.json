@@ -80,54 +80,6 @@
             }
           },
           {
-            "id": "d12af33da5cb39aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69"
-            }
-          },
-          {
-            "id": "1a2bfe7a9eb9705d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9"
-            }
-          },
-          {
             "id": "ccf07f9a71c4c42d",
             "type": "leaf",
             "state": {
@@ -152,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -259,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
+                "file": "通用/阅读/软件+插件+阅读.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69 的大纲"
+              "title": "软件+插件+阅读 的大纲"
             }
           },
           {
@@ -355,12 +307,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d12af33da5cb39aa",
+  "active": "5806345a224f6132",
   "lastOpenFiles": [
-    "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
-    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
-    "通用/阅读/软件+插件+阅读.md",
     "方向/Med/医学影像.md",
+    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
+    "方向/SEG/SAM.md",
+    "方向/SEG",
+    "方向/未命名.md",
+    "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
+    "通用/阅读/软件+插件+阅读.md",
     "通用/组卡和租卡.md",
     "方向/World model/JEPA/发展路线.md",
     "方向/World model/腾讯会议/6.20.md",
@@ -389,19 +345,16 @@
     "方向/Med/医学期刊.md",
     "方向/Med/医学数据集.md",
     "imgs/2026-06-09",
-    "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
     "方向/GNN",
     "方向/World model/JEPA",
     "imgs/2026-06-08",
     "论文精读/DeepSeek 系列论文.md",
     "方向/World model/(2018-03-28) World Models.md",
-    "imgs/2026-06-07",
     "通用/代码/Training Tricks.md",
     "通用/阅读/检索、下载、评论.md",
     "通用/阅读/论文的提示🦄.md",
     "通用/AI 赋能/论文写作.md",
     "产出/GRSL/返修.md",
-    "产出/GRSL/返修-2.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
