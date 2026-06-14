@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -259,13 +259,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通用/组卡和租卡.md",
+                "file": "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "组卡和租卡 的大纲"
+              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9 的大纲"
             }
           },
           {
@@ -355,8 +355,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e3a0c35e77eb3ec",
+  "active": "1a2bfe7a9eb9705d",
   "lastOpenFiles": [
+    "通用/组卡和租卡.md",
     "通用/阅读/软件+插件+阅读.md",
     "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "方向/World model/JEPA/发展路线.md",
@@ -389,7 +390,6 @@
     "方向/Med/医学数据集.md",
     "imgs/2026-06-09",
     "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
-    "通用/组卡和租卡.md",
     "方向/GNN",
     "方向/World model/JEPA",
     "imgs/2026-06-08",
