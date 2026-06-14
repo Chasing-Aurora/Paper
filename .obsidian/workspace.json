@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
+                "file": "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "(2018-03-28)-World-Models-KEYYFLMD"
+              "title": "(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69"
             }
           },
           {
@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -259,13 +259,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通用/阅读/软件+插件+阅读.md",
+                "file": "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "软件+插件+阅读 的大纲"
+              "title": "(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69 的大纲"
             }
           },
           {
@@ -355,13 +355,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5806345a224f6132",
+  "active": "d12af33da5cb39aa",
   "lastOpenFiles": [
     "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
     "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "通用/阅读/软件+插件+阅读.md",
     "方向/Med/医学影像.md",
     "通用/组卡和租卡.md",
-    "通用/阅读/软件+插件+阅读.md",
     "方向/World model/JEPA/发展路线.md",
     "方向/World model/腾讯会议/6.20.md",
     "imgs/2026-06-13/file-2026-06-13-152953797.png",
