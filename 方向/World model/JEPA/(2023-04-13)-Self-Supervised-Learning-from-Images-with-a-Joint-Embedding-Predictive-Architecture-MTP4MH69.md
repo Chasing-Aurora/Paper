@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1275
+$version: 1284
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -58,6 +58,7 @@ $itemKey: MTP4MH69
     *   VAE (Variational Autoencoder)：变分自编码器，学习图像隐空间分布，通过**<span style="color: rgb(0, 0, 0);"><span style="">编码 - 解码重建原图</span></span>**实现表征学习
     *   Denoising Autoencoder (DAE)：降噪自编码器，给图像添加高斯噪声、椒盐噪声，模型学习**<span style="color: rgb(0, 0, 0);"><span style="">去噪还原</span></span>**，挖掘底层视觉特征GPT for Vision / iGPT
     *   GPT for Vision / iGPT：将图像像素序列化，用类 Transformer 自回归方式**<span style="color: rgb(0, 0, 0);"><span style="">逐像素生成图像</span></span>**
+    *
 
 ### 💧 Data
 
