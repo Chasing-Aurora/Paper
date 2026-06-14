@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1186
+$version: 1267
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -40,6 +40,23 @@ $itemKey: MTP4MH69
 ## <span style="color: rgb(32, 178, 170);"><span style="background-color: rgb(175, 238, 238);">🔁 Research Content</span></span>
 
 ***
+
+### intro
+
+#### 自监督的方法
+
+*   基于不变性的方法：对同一张图像做裁剪、翻转、色彩变换等数据增广
+
+    *   SimCLR / SimCLRv2：对比学习标杆
+    *   MoCo (Momentum Contrast)：动量对比学习，引入**<span style="color: rgb(0, 0, 0);"><span style="">动量编码器 + 队列</span></span>**存储大量负样本
+    *   BYOL (Bootstrap Your Own Latent)：依靠**<span style="color: rgb(0, 0, 0);"><span style="">动量网络 + 预测头</span></span>**，仅约束同一图像两个视图特征对齐，彻底摆脱负样本依赖
+
+*   生成式方法：让模型完成图像补全、降噪、重建等生成任务，自主挖掘图像纹理、结构、语义等视觉规律
+
+    *   MAE (Masked Autoencoder)：随机掩码图像大部分区域，模型根据可见像素**<span style="color: rgb(0, 0, 0);"><span style="">还原被遮挡部分</span></span>**
+    *   VAE (Variational Autoencoder)：变分自编码器，学习图像隐空间分布，通过**<span style="color: rgb(0, 0, 0);"><span style="">编码 - 解码重建原图</span></span>**实现表征学习
+    *   Denoising Autoencoder (DAE)：降噪自编码器，给图像添加高斯噪声、椒盐噪声，模型学习**<span style="color: rgb(0, 0, 0);"><span style="">去噪还原</span></span>**，挖掘底层视觉特征GPT for Vision / iGPT
+    *   GPT for Vision / iGPT：将图像像素序列化，用类 Transformer 自回归方式**<span style="color: rgb(0, 0, 0);"><span style="">逐像素生成图像</span></span>**
 
 ### 💧 Data
 
