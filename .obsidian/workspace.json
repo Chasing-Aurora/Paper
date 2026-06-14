@@ -104,6 +104,30 @@
             }
           },
           {
+            "id": "5806345a224f6132",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "通用/阅读/软件+插件+阅读.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "软件+插件+阅读"
+            }
+          },
+          {
             "id": "ccf07f9a71c4c42d",
             "type": "leaf",
             "state": {
@@ -128,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -235,13 +259,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+                "file": "通用/阅读/软件+插件+阅读.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9 的大纲"
+              "title": "软件+插件+阅读 的大纲"
             }
           },
           {
@@ -331,10 +355,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a2bfe7a9eb9705d",
+  "active": "5806345a224f6132",
   "lastOpenFiles": [
-    "方向/World model/JEPA/发展路线.md",
     "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "方向/World model/JEPA/发展路线.md",
     "方向/World model/腾讯会议/6.20.md",
     "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
     "imgs/2026-06-13/file-2026-06-13-152953797.png",
