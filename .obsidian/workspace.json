@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -259,13 +259,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+                "file": "通用/阅读/软件+插件+阅读.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9 的大纲"
+              "title": "软件+插件+阅读 的大纲"
             }
           },
           {
@@ -355,18 +355,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a2bfe7a9eb9705d",
+  "active": "5806345a224f6132",
   "lastOpenFiles": [
+    "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
+    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "方向/Med/医学影像.md",
     "通用/组卡和租卡.md",
     "通用/阅读/软件+插件+阅读.md",
-    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "方向/World model/JEPA/发展路线.md",
     "方向/World model/腾讯会议/6.20.md",
-    "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
     "imgs/2026-06-13/file-2026-06-13-152953797.png",
     "imgs/2026-06-13/file-2026-06-13-152811716.png",
     "imgs/2026-06-13/file-2026-06-13-150531060.png",
-    "方向/Med/医学影像.md",
     "方向/World model/电影.md",
     "方向/World model/腾讯会议",
     "方向/World model/前置的概念.md",
