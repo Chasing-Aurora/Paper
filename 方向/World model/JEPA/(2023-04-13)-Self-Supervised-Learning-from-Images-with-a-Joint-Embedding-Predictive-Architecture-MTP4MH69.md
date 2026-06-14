@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1284
+$version: 1290
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -55,9 +55,15 @@ $itemKey: MTP4MH69
 *   生成式方法：让模型完成图像补全、降噪、重建等生成任务，自主挖掘图像纹理、结构、语义等视觉规律
 
     *   MAE (Masked Autoencoder)：随机掩码图像大部分区域，模型根据可见像素**<span style="color: rgb(0, 0, 0);"><span style="">还原被遮挡部分</span></span>**
+
     *   VAE (Variational Autoencoder)：变分自编码器，学习图像隐空间分布，通过**<span style="color: rgb(0, 0, 0);"><span style="">编码 - 解码重建原图</span></span>**实现表征学习
+
     *   Denoising Autoencoder (DAE)：降噪自编码器，给图像添加高斯噪声、椒盐噪声，模型学习**<span style="color: rgb(0, 0, 0);"><span style="">去噪还原</span></span>**，挖掘底层视觉特征GPT for Vision / iGPT
+
     *   GPT for Vision / iGPT：将图像像素序列化，用类 Transformer 自回归方式**<span style="color: rgb(0, 0, 0);"><span style="">逐像素生成图像</span></span>**
+
+    *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B394.54035999999985%2C102.75807839999989%2C545.1150963999995%2C111.39565259999988%5D%2C%5B308.86199999999997%2C90.80307839999989%2C545.1150963999994%2C99.44065259999988%5D%2C%5B308.86199999999997%2C78.84807839999989%2C473.13531139999947%2C87.48565259999988%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%221%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=1">“Masked pretraining tasks require less prior knowledge than view-invariance approaches and easily generalize beyond the image modality”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 1</a></span>)</span>
+
     *
 
 ### 💧 Data
