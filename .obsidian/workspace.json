@@ -56,6 +56,30 @@
             }
           },
           {
+            "id": "5806345a224f6132",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "通用/阅读/软件+插件+阅读.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "软件+插件+阅读"
+            }
+          },
+          {
             "id": "d12af33da5cb39aa",
             "type": "leaf",
             "state": {
@@ -104,30 +128,6 @@
             }
           },
           {
-            "id": "5806345a224f6132",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "通用/阅读/软件+插件+阅读.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "软件+插件+阅读"
-            }
-          },
-          {
             "id": "ccf07f9a71c4c42d",
             "type": "leaf",
             "state": {
@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
