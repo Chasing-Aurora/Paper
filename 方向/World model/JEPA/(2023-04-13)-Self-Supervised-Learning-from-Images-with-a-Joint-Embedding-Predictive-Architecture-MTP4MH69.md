@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1176
+$version: 1182
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -23,6 +23,8 @@ $itemKey: MTP4MH69
 | **<span style="color: rgb(25, 60, 71);"><span style="background-color: rgb(243, 250, 244);">Note Date: </span></span>**<span style="color: rgb(25, 60, 71);"><span style="background-color: rgb(243, 250, 244);">2026/6/8 17:08:34</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 
+[sdc](https://youtu.be/t_RvDTzi3vU?t=2)
+
 ## <span style="color: rgb(224, 255, 255);"><span style="background-color: rgb(102, 205, 170);">📜 Research Core</span></span>
 
 ***
@@ -30,8 +32,6 @@ $itemKey: MTP4MH69
 > Tips: What was done, what problem was solved, innovations and shortcomings?
 
 ### ⚙️ Content
-
-\[]\(<https://www.youtube.com/watch?v=t_RvDTzi3vU&t=2839s>)
 
 ### 💡 Innovations
 
