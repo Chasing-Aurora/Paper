@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1290
+$version: 1407
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -48,23 +48,93 @@ $itemKey: MTP4MH69
 *   基于不变性的方法：对同一张图像做裁剪、翻转、色彩变换等数据增广
 
     *   SimCLR / SimCLRv2：对比学习标杆
-    *   MoCo (Momentum Contrast)：动量对比学习，引入**<span style="color: rgb(0, 0, 0);"><span style="">动量编码器 + 队列</span></span>**存储大量负样本
-    *   BYOL (Bootstrap Your Own Latent)：依靠**<span style="color: rgb(0, 0, 0);"><span style="">动量网络 + 预测头</span></span>**，仅约束同一图像两个视图特征对齐，彻底摆脱负样本依赖
-    *   但是这种 对比的方法，是 hard-code ，是硬编码的！对于 分类、分割等需要不同的处理——I-JEPA中所说
+    *   MoCo (Momentum Contrast)：动量对比学习，引入**<span style="color: rgb(0, 0, 0);">动量编码器 + 队列</span>**存储大量负样本
+    *   BYOL (Bootstrap Your Own Latent)：依靠**<span style="color: rgb(0, 0, 0);">动量网络 + 预测头</span>**，仅约束同一图像两个视图特征对齐，彻底摆脱负样本依赖
+    *   <span style="color: rgb(78, 179, 28);">但是这种 对比的方法，是 hard-code ，是硬编码的！对于 分类、分割等需要不同的处理——I-JEPA中所说</span>
 
 *   生成式方法：让模型完成图像补全、降噪、重建等生成任务，自主挖掘图像纹理、结构、语义等视觉规律
 
-    *   MAE (Masked Autoencoder)：随机掩码图像大部分区域，模型根据可见像素**<span style="color: rgb(0, 0, 0);"><span style="">还原被遮挡部分</span></span>**
+    *   MAE (Masked Autoencoder)：随机掩码图像大部分区域，模型根据可见像素**<span style="color: rgb(0, 0, 0);">还原被遮挡部分</span>**
 
-    *   VAE (Variational Autoencoder)：变分自编码器，学习图像隐空间分布，通过**<span style="color: rgb(0, 0, 0);"><span style="">编码 - 解码重建原图</span></span>**实现表征学习
+    *   VAE (Variational Autoencoder)：变分自编码器，学习图像隐空间分布，通过**<span style="color: rgb(0, 0, 0);">编码 - 解码重建原图</span>**实现表征学习
 
-    *   Denoising Autoencoder (DAE)：降噪自编码器，给图像添加高斯噪声、椒盐噪声，模型学习**<span style="color: rgb(0, 0, 0);"><span style="">去噪还原</span></span>**，挖掘底层视觉特征GPT for Vision / iGPT
+    *   Denoising Autoencoder (DAE)：降噪自编码器，给图像添加高斯噪声、椒盐噪声，模型学习**<span style="color: rgb(0, 0, 0);">去噪还原</span>**，挖掘底层视觉特征GPT for Vision / iGPT
 
-    *   GPT for Vision / iGPT：将图像像素序列化，用类 Transformer 自回归方式**<span style="color: rgb(0, 0, 0);"><span style="">逐像素生成图像</span></span>**
+    *   GPT for Vision / iGPT：将图像像素序列化，用类 Transformer 自回归方式**<span style="color: rgb(0, 0, 0);">逐像素生成图像</span>**
 
     *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B394.54035999999985%2C102.75807839999989%2C545.1150963999995%2C111.39565259999988%5D%2C%5B308.86199999999997%2C90.80307839999989%2C545.1150963999994%2C99.44065259999988%5D%2C%5B308.86199999999997%2C78.84807839999989%2C473.13531139999947%2C87.48565259999988%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%221%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=1">“Masked pretraining tasks require less prior knowledge than view-invariance approaches and easily generalize beyond the image modality”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 1</a></span>)</span>
 
-    *
+    *   <span style="color: rgb(78, 179, 28);">但是 这种方法 提取的的representation 不如基于invariance 的方法效果好</span>
+
+#### off-the-shelf evaluationss
+
+*   off-the-shelf evaluations：
+
+    *   **<span style="color: rgb(0, 0, 0);">无需额外定制、直接拿来就能用</span>**的通用模型评测方式，是机器学习 / 大模型领域常用表述
+    *   ✅ **<span style="color: rgb(0, 0, 0);">不 / 极少更新预训练模型主干参数</span>**
+
+*   [linear-probing（线性探测）：](https://blog.csdn.net/2301_80482040/article/details/149194548)
+
+    *   <span style="color: rgb(0, 0, 0);">冻结预训练模型的全部参数，</span>**<span style="color: rgb(0, 0, 0);">只训练一层线性分类器</span>**<span style="color: rgb(0, 0, 0);">；</span>
+
+    *   <span style="color: rgb(0, 0, 0);">用它检验预训练模型提取特征的质量，流程简单、不用微调主干网络，属于开箱即用的评估手段</span>
+
+    *   **<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);">添加一个新的、未经训练的线性分类器：</span></span>**<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);"> 在冻结的预训练特征提取器的输出之上，</span></span>**<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);">添加一个全新的、简单的线性层</span></span>**<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);">（</span></span>`nn.Linear`<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);">）。这个线性层通常被称为 </span></span>**<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);">Probe Layer</span></span>**<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);"> 或 </span></span>**<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);">Classifier Head</span></span>**
+
+    *   <span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);">新添加的分类器是一个</span></span>**<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);">线性变换</span></span>**<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);"> (</span></span>`y = Wx + b`<span style="color: rgba(0, 0, 0, 0.75);"><span style="background-color: rgb(255, 255, 255);">)，没有任何非线性激活函数（如 ReLU）。这强制分类决策只能基于特征空间中的线性边界，所以叫做 线性探测了！</span></span>
+
+<!---->
+
+*   <span style="color: rgb(0, 0, 0);">k-NN Evaluation（k 近邻评估）</span>
+
+    *   完全**零训练**：用模型提取图像特征，直接做 k 近邻分类
+    *   <span style="color: rgba(0, 0, 0, 0.8);"><span style="background-color: rgb(239, 234, 231);">对于分类任务，查看K个最近邻居中最常见的类别，作为预测结果。对于回归任务，预测结果可以是K个最近邻居的平均值或加权平均值</span></span>
+
+*   Zero-Shot Classification 零样本分类
+
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">典型如 CLIP 系列，</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">不做下游训练</span></span>**<span style="background-color: rgba(255, 212, 0, 0.5);">，直接用图文匹配做分类，完全开箱即用</span>
+
+*   Few-Shot Evaluation 少样本评估
+
+    *   仅用少量标注样本 + 轻量适配（prompt / 线性头），不微调主干，属于标准现成评测
+
+*   Semi-Supervised Evaluation 半监督评估
+
+    *   固定主干，仅用少量标注 + 大量无标注数据训练分类头，流程标准化
+
+*   Segmentation/Detection Frozen Backbone
+
+    *   冻结预训练主干，只训练检测 / 分割头，用于评估通用视觉表征
+
+#### GPU hours
+
+*   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B528.5174147999995%2C450.41307840000064%2C545.1151063999994%2C459.0506526000006%5D%2C%5B328.78700000000003%2C438.45807840000066%2C545.1148963999996%2C447.0956526000006%5D%2C%5B328.78700000000003%2C426.16435000000064%2C395.0582151999998%2C436.12695000000065%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%222%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=2">“Pretraining a ViT-H/14 on ImageNet requires less than 1200 GPU hours”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 2</a></span>)</span>
+
+*   **<span style="color: rgba(0, 0, 0, 0.95);">GPU hours（GPU 小时）</span>**<span style="color: rgba(0, 0, 0, 0.95);">：</span><span style="color: rgba(0, 0, 0, 0.8);"><span style="background-color: rgb(239, 234, 231);">衡量深度学习或大模型训练所消耗 GPU 资源的核心指标</span></span>
+
+    *   GPU Hours = GPU数量 × 训练总时长（小时）
+
+    *   **<span style="color: rgba(0, 0, 0, 0.8);"><span style="background-color: rgb(239, 234, 231);">模型参数量（D）</span></span>**<span style="color: rgba(0, 0, 0, 0.8);"><span style="background-color: rgb(239, 234, 231);">：参数越多，计算量越大</span></span>
+
+    *   **<span style="color: rgba(0, 0, 0, 0.95);">通用统计单位</span>**<span style="color: rgba(0, 0, 0, 0.95);">，任何型号 GPU（A100、V100、3090、H100 等）都能用它计量</span>
+
+    *   通用结果，不分卡型号，只看数量
+
+### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B320.8172000000002%2C353.4763632000007%2C383.7135072000001%2C364.2240880000007%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%222%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=2">“Background”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 2</a></span>)</span>
+
+#### **<span style="color: rgb(51, 51, 51);"><span style="background-color: rgb(255, 255, 255);">基于能量的模型(Energy-Based Models)</span></span>**
+
+*   <span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">基于能量的模型（EBM）的原型是</span></span>**<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">统计物理</span></span>**<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">中用来统计粒子分布的模型。</span></span>
+
+*   <span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">在一个密闭空间中有能量高的区域和能量低的区域，表现为能量函数中空间中的不同大小。由于热力学第二定律粒子会倾向于维持一种能量低的状态，最终达到均衡，因此这些粒子在这个空间中会形成基于能量函数的平稳分布</span></span>
+
+*   <span style="color: rgb(40, 40, 40);"><span style="background-color: rgba(255, 212, 0, 0.5);">EBM最早在机器学习中的应用是在1985年提出的名为玻尔兹曼机（</span></span>`Boltzmann machine`<span style="color: rgb(40, 40, 40);"><span style="background-color: rgba(255, 212, 0, 0.5);">）的概率模型，其主要思想是用能量来学习未知的概率分布。</span></span>
+
+    *   <span style="color: rgb(40, 40, 40);"><span style="background-color: rgba(255, 212, 0, 0.5);">统计力学的结论表明，任何概率分布都可以转变成基于能量的模型，所以利用基于能量的模型的这个形式，是一种学习概率分布的通法</span></span>
+
+    *   <span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">对于变量，其概率密度分布可以表示为：</span></span>![\<img src="attachments/2R4UJ7H6.jpg" alt="" width="173" height="46" data-attachment-key="2R4UJ7H6" ztype="zimage"> | 173](attachments/2R4UJ7H6.jpg)<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">其中，</span></span>![\<img src="attachments/4TXVCFWT.jpg" alt="" width="14" height="18" data-attachment-key="4TXVCFWT" ztype="zimage"> | 14](attachments/4TXVCFWT.jpg)<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">是能量函数，</span></span>![\<img src="attachments/QRJG6Q4X.jpg" alt="" width="13" height="16" data-attachment-key="QRJG6Q4X" ztype="zimage"> | 13](attachments/QRJG6Q4X.jpg)<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">是归一化常数。能量</span></span>![\<img src="attachments/ENM7SUHS.jpg" alt="" width="42" height="20" data-attachment-key="ENM7SUHS" ztype="zimage"> | 42](attachments/ENM7SUHS.jpg)<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">越小，对应变量的概率就越大。</span></span>
+
+####
 
 ### 💧 Data
 
