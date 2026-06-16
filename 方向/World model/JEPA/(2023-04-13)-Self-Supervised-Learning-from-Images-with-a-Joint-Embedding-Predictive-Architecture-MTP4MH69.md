@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1716
+$version: 1725
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -172,6 +172,18 @@ $itemKey: MTP4MH69
 *   ![\<img src="attachments/EIM2TBHF.png" alt="" width="335" height="299" data-attachment-key="EIM2TBHF" ztype="zimage"> | 335](attachments/EIM2TBHF.png)
 
 ### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%225%22%2C%22position%22%3A%7B%22pageIndex%22%3A4%2C%22rects%22%3A%5B%5B320.8172%2C392.4183631999998%2C424.0981728%2C403.1660879999998%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%225%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=5">“Image Classification”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 5</a></span>)</span>
+
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B164.12500000000003%2C464.9080784000002%2C286.36610200000007%2C473.93419400000016%5D%2C%5B50.11200000000002%2C452.9530784000002%2C173.8873424000001%2C461.59065260000017%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=6">“Table 2 shows performance on the 1% ImageNet benchmark.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 6</a></span>)</span>
+
+*   <span style="color: rgba(0, 0, 0, 0.95);"><span style="background-color: rgba(255, 212, 0, 0.5);">标准 ImageNet-1k 有 128 万训练图、1000 类</span>；</span>**<span style="color: rgba(0, 0, 0, 0.95);">1% ImageNet</span>**<span style="color: rgba(0, 0, 0, 0.95);">指仅使用原训练集 1% 的数据做训练，是</span>**<span style="color: rgba(0, 0, 0, 0.95);">小样本图像分类基准</span>**
+
+*   <span style="color: rgba(0, 0, 0, 0.95);"><span style="background-color: rgba(255, 212, 0, 0.5);">仅一万多张训练样本，验证集仍用完整 ImageNet 验证集统一评测</span></span>
+
+    *   **<span style="color: rgba(0, 0, 0, 0.95);">小样本学习（Few-shot）评测</span>**<span style="color: rgba(0, 0, 0, 0.95);">：检验模型数据效率，看少量数据下泛化能力</span>
+
+    *   **<span style="color: rgba(0, 0, 0, 0.95);">轻量化 / 低数据场景验证</span>**<span style="color: rgba(0, 0, 0, 0.95);">：模拟真实业务缺少标注数据的场景</span>
+
+*
 
 ### 💧 Data
 
