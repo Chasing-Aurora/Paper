@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/World model/前置的概念.md",
+                "file": "经典论文精读/Vit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前置的概念"
+              "title": "Vit"
             }
           }
         ],
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/前置的概念.md",
+                "file": "经典论文精读/Vit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "前置的概念 的大纲"
+              "title": "Vit 的大纲"
             }
           },
           {
@@ -333,8 +333,11 @@
   },
   "active": "5d7c1862282ec5bf",
   "lastOpenFiles": [
-    "方向/GNN/前置的概念.md",
+    "imgs/2026-06-16/file-2026-06-16-215907398.png",
+    "imgs/2026-06-16",
     "方向/World model/前置的概念.md",
+    "经典论文精读/Vit.md",
+    "方向/GNN/前置的概念.md",
     "通用/阅读/论文的提示🦄.md",
     "方向/Med/医学影像.md",
     "通用/阅读/软件+插件+阅读.md",
@@ -352,7 +355,7 @@
     "imgs/2026-06-13/file-2026-06-13-150531060.png",
     "方向/World model/电影.md",
     "方向/World model/腾讯会议",
-    "论文精读/李沐论文精度系列.md",
+    "经典论文精读/李沐论文精度系列.md",
     "imgs/2026-06-13/file-2026-06-13-102854684.png",
     "imgs/2026-06-13/file-2026-06-13-100957049.png",
     "imgs/2026-06-13/file-2026-06-13-100803363.png",
@@ -361,7 +364,7 @@
     "imgs/2026-06-12/file-2026-06-12-222721038.png",
     "imgs/2026-06-12/file-2026-06-12-222237847.png",
     "imgs/2026-06-12/file-2026-06-12-222213973.png",
-    "论文精读/同济子豪兄-GNN.md",
+    "经典论文精读/同济子豪兄-GNN.md",
     "通用/撰写/LaTex.md",
     "imgs/2026-06-12",
     "imgs/2026-06-11",
@@ -372,13 +375,10 @@
     "imgs/2026-06-09",
     "方向/GNN",
     "方向/World model/JEPA",
-    "imgs/2026-06-08",
-    "论文精读/DeepSeek 系列论文.md",
+    "经典论文精读/DeepSeek 系列论文.md",
     "方向/World model/(2018-03-28) World Models.md",
     "通用/代码/Training Tricks.md",
     "通用/阅读/检索、下载、评论.md",
-    "通用/AI 赋能/论文写作.md",
-    "产出/GRSL/返修.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
