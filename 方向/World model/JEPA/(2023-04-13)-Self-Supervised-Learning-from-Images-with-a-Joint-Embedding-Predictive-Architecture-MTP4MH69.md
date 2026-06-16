@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1407
+$version: 1429
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -134,7 +134,42 @@ $itemKey: MTP4MH69
 
     *   <span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">对于变量，其概率密度分布可以表示为：</span></span>![\<img src="attachments/2R4UJ7H6.jpg" alt="" width="173" height="46" data-attachment-key="2R4UJ7H6" ztype="zimage"> | 173](attachments/2R4UJ7H6.jpg)<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">其中，</span></span>![\<img src="attachments/4TXVCFWT.jpg" alt="" width="14" height="18" data-attachment-key="4TXVCFWT" ztype="zimage"> | 14](attachments/4TXVCFWT.jpg)<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">是能量函数，</span></span>![\<img src="attachments/QRJG6Q4X.jpg" alt="" width="13" height="16" data-attachment-key="QRJG6Q4X" ztype="zimage"> | 13](attachments/QRJG6Q4X.jpg)<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">是归一化常数。能量</span></span>![\<img src="attachments/ENM7SUHS.jpg" alt="" width="42" height="20" data-attachment-key="ENM7SUHS" ztype="zimage"> | 42](attachments/ENM7SUHS.jpg)<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">越小，对应变量的概率就越大。</span></span>
 
-####
+*   <span style="background-color: rgba(255, 212, 0, 0.5);">有些可视化以及清晰的见解来自<a href="https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3DpiaPIKO1MFY%26ab_channel%3DMachineLearningStreetTalk" rel="noopener noreferrer nofollow">ICLR 2020: Yann LeCun and Energy-Based Models</a>。所谓的能量模型并不是一种新的技术，而是LeCun的一种尝试：将当前的DL，ML统一在能量模型的框架中</span>
+
+*   <span style="background-color: rgba(255, 212, 0, 0.5);">能量函数通常写作 E(x,y) ，用于衡量 x和y 的 compatibility，也可以理解为 x和y 是否匹配，能量越小匹配度越高</span>
+
+*
+
+*   <span style="color: rgb(33, 37, 41);"><span style="background-color: rgb(255, 255, 255);">Yann LeCun 反复强调过一个观点：当前LLM基于概率、逐 Token 预测的设计路线，很可能走不到人类水平的AI。他的团队更看好另一条路，基于能量的模型（EBM）</span></span>
+
+    *   <span style="background-color: rgba(255, 102, 102, 0.5);">EBM比概率方法有更大的回旋余地，用能量函数替代概率分布的建模框架</span>
+    *   <span style="color: rgb(33, 37, 41);"><span style="background-color: rgb(255, 255, 255);">关键优势在于：概率方法不可解的场景下，EBM是可解的。</span></span>
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">概率模型必须做归一化，往往需要在所有可能的变量配置空间上计算积分，而很多时候这个积分根本算不出来。EBM不要求归一化，这个问题被天然绕过了</span>
+
+#### **<span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">基于能量的生成式模型</span></span>**
+
+*   <span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">近些年，EBM在深度学习领域重新进入大众视野，并在生成式模型中有着广泛应用</span></span>
+*   <span style="color: rgb(40, 40, 40);"><span style="background-color: rgb(255, 255, 255);">EBM将样本服从的分布建模为一个玻尔兹曼分布，能量函数为具有复杂表示能力的神经网络。通过训练将真实样本的能量函数降低，生成样本的能量函数增加，从而通过优化能量函数达到生成合格样本的效果</span></span>
+
+#### Boltzmann Machines
+
+*   <span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">玻尔兹曼机是一种基于能量的模型（an energy-based model）</span></span>
+
+*   <span style="color: rgb(25, 27, 31);"><span style="background-color: rgba(255, 212, 0, 0.5);">所以利用基于能量的模型的这个形式，是一种学习概率分布的通法</span></span>
+
+*   <span style="color: rgb(51, 51, 51);"><span style="background-color: rgb(255, 255, 255);">由</span></span>**<span style="color: rgb(51, 51, 51);"><span style="background-color: rgb(255, 255, 255);">可见层和隐含层的二值随机神经元构成对称连接结构</span></span>**<span style="color: rgb(51, 51, 51);"><span style="background-color: rgb(255, 255, 255);">，其概率分布遵循统计物理学中的玻尔兹曼定律</span></span>
+
+*   ![\<img src="attachments/NY84UU2U.png" alt="请添加图片描述" width="993" height="446" data-attachment-key="NY84UU2U" ztype="zimage"> | 993](attachments/NY84UU2U.png)
+
+#### Restricted Boltzmann Machines 有限玻尔兹曼机
+
+*   <span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">RBM只有一层可见变量和一层隐变量，同时可见变量之间，隐变量之间不直接相连。即对应的图是一个二部图</span></span>
+*   ![\<img src="attachments/EHIQYBQU.png" alt="" width="358" height="203" data-attachment-key="EHIQYBQU" ztype="zimage"> | 358](attachments/EHIQYBQU.png)
+
+#### deep Boltzmann machine 深度有限玻尔兹曼机
+
+*   <span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">如果有多层隐单元层，则一般称为深度有限玻尔兹曼机（deep Boltzmann machine）</span></span>
+*   ![\<img src="attachments/EIM2TBHF.png" alt="" width="335" height="299" data-attachment-key="EIM2TBHF" ztype="zimage"> | 335](attachments/EIM2TBHF.png)
 
 ### 💧 Data
 
