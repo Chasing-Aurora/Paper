@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+                "file": "经典论文精读/视觉自监督模型/BYOL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9 的大纲"
+              "title": "BYOL 的大纲"
             }
           },
           {
@@ -331,10 +331,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb6b81bc439b77ef",
+  "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
-    "经典论文精读/视觉自监督模型/BYOL.md",
     "经典论文精读/视觉自监督模型/Moco.md",
+    "经典论文精读/视觉自监督模型/BYOL.md",
+    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "经典论文精读/视觉自监督模型/DINO系列.md",
     "经典论文精读/视觉自监督模型",
     "方向/World model/JEPA/attachments/2R4UJ7H6.jpg",
@@ -346,7 +347,6 @@
     "通用/阅读/论文的提示🦄.md",
     "方向/Med/医学影像.md",
     "通用/阅读/软件+插件+阅读.md",
-    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
     "方向/SEG/SAM.md",
     "方向/SEG",
