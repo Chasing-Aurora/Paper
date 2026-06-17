@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "BYOL"
             }
+          },
+          {
+            "id": "bb6b81bc439b77ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -211,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/BYOL.md",
+                "file": "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "BYOL 的大纲"
+              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9 的大纲"
             }
           },
           {
@@ -307,10 +331,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccf07f9a71c4c42d",
+  "active": "bb6b81bc439b77ef",
   "lastOpenFiles": [
-    "经典论文精读/视觉自监督模型/Moco.md",
     "经典论文精读/视觉自监督模型/BYOL.md",
+    "经典论文精读/视觉自监督模型/Moco.md",
     "经典论文精读/视觉自监督模型/DINO系列.md",
     "经典论文精读/视觉自监督模型",
     "方向/World model/JEPA/attachments/2R4UJ7H6.jpg",
