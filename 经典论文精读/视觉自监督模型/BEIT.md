@@ -1,5 +1,5 @@
 
-## Pretext
+# Pretext
 - 在许多无监督学习的研究中，经常提到 **“pretext tasks”**
 - **Pretext** 是名词，意思是 **“借口、托词、伪装”**，它通常用于描述一个看似表面上的理由或目的，但实际上它背后可能隐藏着更深层的目的或动机
 - **Pretext** = **An excuse or reason given to hide the real purpose**
@@ -18,7 +18,11 @@
 
 
 
-## BEIT：Pre-Training of Image Transformer
+# BEIT：Pre-Training of Image Transformer
 - 具体的思路是每张图像有两种表示，一种是图像的patch（如 16 × 16的像素patch），另一种是视觉token（如不连续的位置表示）。
 - 我们首先将原始图像“标记化”为视觉token。然后我们**随机遮盖一些图像的patch**，并把它送入到Transformer的backbone中。预训练的目的是根据损坏的图像patch来恢复原始的视觉token
+
+## 动机
+- ==transformer的能力较为有优势，但是transformer架构需要更多的数据进行训练==
+- ==借助于Bert在自然语言领域的运用，使用遮盖任务进行恢复是一个非常好的**自监督pretext**==
 - 
