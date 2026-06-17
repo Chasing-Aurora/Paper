@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "经典论文精读/视觉自监督模型——.md",
+                "file": "经典论文精读/视觉自监督模型——DINO系列.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "视觉自监督模型——"
+              "title": "视觉自监督模型——DINO系列"
             }
           }
         ],
@@ -211,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/视觉自监督模型——.md",
+                "file": "经典论文精读/视觉自监督模型——DINO系列.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "视觉自监督模型—— 的大纲"
+              "title": "视觉自监督模型——DINO系列 的大纲"
             }
           },
           {
@@ -310,7 +310,7 @@
   "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
     "方向/World model/JEPA/attachments/2R4UJ7H6.jpg",
-    "经典论文精读/视觉自监督模型——.md",
+    "经典论文精读/视觉自监督模型——DINO系列.md",
     "经典论文精读/Vit.md",
     "imgs/2026-06-16/file-2026-06-16-215907398.png",
     "imgs/2026-06-16",
