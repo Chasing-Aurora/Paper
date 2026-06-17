@@ -107,24 +107,12 @@
             "id": "5d7c1862282ec5bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "经典论文精读/Vit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "方向/World model/JEPA/attachments/2R4UJ7H6.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Vit"
+              "icon": "lucide-image",
+              "title": "2R4UJ7H6"
             }
           }
         ],
@@ -235,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/Vit.md",
+                "file": "方向/World model/JEPA/attachments/2R4UJ7H6.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Vit 的大纲"
+              "title": "2R4UJ7H6 的大纲"
             }
           },
           {
