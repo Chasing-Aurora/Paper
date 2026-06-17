@@ -50,3 +50,4 @@ rw报错
 vidu报错
 No compatible models
 
+1.请问为什么我通过 超级管理员的身份，在http://127.0.0.1:5175/playground测试rw-query,rw-tts,rw-asr等模型都是报错了：
