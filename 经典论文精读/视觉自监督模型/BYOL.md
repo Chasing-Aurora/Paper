@@ -34,8 +34,8 @@
 
 
 
-## self-distillation
-- 为避免模型坍塌，不再用一个 backbone 提取视图特征，而是**引入不对称的两个网络分别提取两个增强视图特征**，通过 “教师-学生” 方式进行训练：
+## self-distillation/EMA更新/momentum 网络
+- 为避免模型坍塌，BYOL不再用一个 backbone 提取视图特征，而是**引入不对称的两个网络分别提取两个增强视图特征**，通过 “教师-学生” 方式进行训练：
 	- **在线网络 (online network)**：真正被优化的网络，由编码器 f θ $f_\theta$​（ViT/CNN）、投影头 $g_\theta$（MLP）和预测器 q θ ​（MLP）三部分组成。==它作为 student，要学习 target network 的输出==
 	- **目标网络 (target network)**：结构与在线网络相同，但没有预测器 q qq，==它的参数 $f_\xi$, $g_\xi$  由 online network 的参数做**滑动平均 (EMA)** 得到==。它作为 teacher，通过缓慢更新为 student 提供稳定的学习目标
 - ![](../../imgs/2026-06-17/file-2026-06-17-221831517.png)
