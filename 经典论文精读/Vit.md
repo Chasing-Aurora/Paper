@@ -49,5 +49,9 @@
 
 
 1.请问为什么我通过 超级管理员的身份，在http://127.0.0.1:5175/playground测试rw-query,rw-tts,rw-asr等模型都是报错了类似这样呢：Request error occurred: rw channel: endpoint not supported (request id: 202606170705274757426006JfzFMrZrNBLb5J6)
+请问测试连通性是需要通过curl表达式的格式才能 进行测试连通性的嘛？请尝试一下
 2.请问为什么配置了vidu-1模型配置价格，在http://127.0.0.1:5175/playground测试报错：Request error occurred: Incorrect API key provided: 1AE570F1********************285F. You can find your API key at https://***.com/***/***
-3.请问为什么我通过 图片生成/视频生成 
+3.请问为什么我以普通用户one的身份登录，但是在 图片生成/视频生成 页面却报错了：No compatible models
+The default key is ready, but the default group has no compatible model for this creation mode.
+4.
+
