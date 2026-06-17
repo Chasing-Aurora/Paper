@@ -53,5 +53,6 @@
 2.请问为什么配置了vidu-1模型配置价格，在http://127.0.0.1:5175/playground测试报错：Request error occurred: Incorrect API key provided: 1AE570F1********************285F. You can find your API key at https://***.com/***/***
 3.请问为什么我以普通用户one的身份登录，但是在 图片生成/视频生成 页面却报错了：No compatible models
 The default key is ready, but the default group has no compatible model for this creation mode.
-4.
+4.用户表达式计费、用户按次计费、用户表达式计费都是什么意思呢？分别时候什么情况呢?
+5.http://127.0.0.1:5175/system-settings/billing/model-pricing页面的
 
