@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "经典论文精读/视觉自监督模型——DINO系列.md",
+                "file": "经典论文精读/视觉自监督模型/Moco.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "视觉自监督模型——DINO系列"
+              "title": "Moco"
             }
           }
         ],
@@ -211,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/视觉自监督模型——DINO系列.md",
+                "file": "经典论文精读/视觉自监督模型/Moco.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "视觉自监督模型——DINO系列 的大纲"
+              "title": "Moco 的大纲"
             }
           },
           {
@@ -309,8 +309,10 @@
   },
   "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
+    "经典论文精读/视觉自监督模型/DINO系列.md",
+    "经典论文精读/视觉自监督模型/Moco.md",
+    "经典论文精读/视觉自监督模型",
     "方向/World model/JEPA/attachments/2R4UJ7H6.jpg",
-    "经典论文精读/视觉自监督模型——DINO系列.md",
     "经典论文精读/Vit.md",
     "imgs/2026-06-16/file-2026-06-16-215907398.png",
     "imgs/2026-06-16",
@@ -340,7 +342,6 @@
     "imgs/2026-06-13/file-2026-06-13-100542511.png",
     "imgs/2026-06-13",
     "imgs/2026-06-12/file-2026-06-12-222721038.png",
-    "imgs/2026-06-12/file-2026-06-12-222237847.png",
     "经典论文精读/同济子豪兄-GNN.md",
     "通用/撰写/LaTex.md",
     "imgs/2026-06-12",
@@ -351,7 +352,6 @@
     "方向/Med/医学数据集.md",
     "imgs/2026-06-09",
     "方向/GNN",
-    "方向/World model/JEPA",
     "经典论文精读/DeepSeek 系列论文.md",
     "方向/World model/(2018-03-28) World Models.md",
     "通用/代码/Training Tricks.md",
