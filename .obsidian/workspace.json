@@ -331,8 +331,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76da95666f0625a7",
+  "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
+    "imgs/2026-06-17/file-2026-06-17-205847750.png",
+    "imgs/2026-06-17",
     "经典论文精读/视觉自监督模型/BYOL.md",
     "经典论文精读/视觉自监督模型/BEIT.md",
     "经典论文精读/视觉自监督模型/Moco.md",
@@ -377,8 +379,6 @@
     "方向/Med/医学期刊.md",
     "方向/Med/医学数据集.md",
     "imgs/2026-06-09",
-    "方向/GNN",
-    "经典论文精读/DeepSeek 系列论文.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
