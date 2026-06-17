@@ -46,4 +46,7 @@
 
 
 文本生成
+rw报错
+vidu报错
+No compatible models
 
