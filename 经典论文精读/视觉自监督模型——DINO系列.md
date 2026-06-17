@@ -1,0 +1,2 @@
+- DINO 是视觉 Transformer 做自监督学习的非常经典的工作
+- 
