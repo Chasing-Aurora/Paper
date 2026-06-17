@@ -30,7 +30,6 @@
 
 
 
-
 ## 模型规格——B/L/H
 
 |Model|Layers|Hidden size D|MLP size|Heads|Params|
