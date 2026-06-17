@@ -18,8 +18,8 @@
 
 
 
-# BEIT：Pre-Training of Image Transformer
-
+# BEIT：Bidirectional Encoder representation from Image Transformers
+- BERT（Bidirectional Encoder Representations from Transformers）
 
 ## 动机
 - ==transformer的能力较为有优势，但是transformer架构需要更多的数据进行训练==
