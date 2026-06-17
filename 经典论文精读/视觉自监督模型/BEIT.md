@@ -18,3 +18,7 @@
 
 
 
+## BEIT：Pre-Training of Image Transformer
+- 具体的思路是每张图像有两种表示，一种是图像的patch（如 16 × 16的像素patch），另一种是视觉token（如不连续的位置表示）。
+- 我们首先将原始图像“标记化”为视觉token。然后我们**随机遮盖一些图像的patch**，并把它送入到Transformer的backbone中。预训练的目的是根据损坏的图像patch来恢复原始的视觉token
+- 
