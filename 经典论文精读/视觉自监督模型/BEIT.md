@@ -19,8 +19,7 @@
 
 
 # BEIT：Pre-Training of Image Transformer
-- 具体的思路是每张图像有两种表示，一种是图像的patch（如 16 × 16的像素patch），另一种是视觉token（如不连续的位置表示）。
-- 我们首先将原始图像“标记化”为视觉token。然后我们**随机遮盖一些图像的patch**，并把它送入到Transformer的backbone中。预训练的目的是根据损坏的图像patch来恢复原始的视觉token
+
 
 ## 动机
 - ==transformer的能力较为有优势，但是transformer架构需要更多的数据进行训练==
@@ -30,4 +29,10 @@
 
 ## 方法
 - ![](../../imgs/2026-06-17/file-2026-06-17-205847750.png)
-- 
+
+
+- 具体的思路是每张图像有两种表示，一种是图像的patch（如 16 × 16的像素patch），另一种是视觉token（如不连续的位置表示）。
+	- image patch：在patch的分割部分，做法感觉和[ViT](https://zhida.zhihu.com/search?content_id=217912171&content_type=Article&match_order=1&q=ViT&zhida_source=entity)这种很类似，做一个embeding然后也有pos位置向量的信息补充
+	- visual token：具体来说是通过一个dVAE
+- 最小化通过dVAE的token和真实token（被masked的image patch）之间的差异
+	- ![](../../imgs/2026-06-17/file-2026-06-17-210346874.png)
