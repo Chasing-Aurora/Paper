@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "方向/Med/医学影像.md",
+                "file": "经典论文精读/视觉自监督模型——.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "医学影像"
+              "title": "视觉自监督模型——"
             }
           }
         ],
@@ -211,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/JEPA/attachments/2R4UJ7H6.jpg",
+                "file": "经典论文精读/视觉自监督模型——.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2R4UJ7H6 的大纲"
+              "title": "视觉自监督模型—— 的大纲"
             }
           },
           {
@@ -307,8 +307,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76da95666f0625a7",
+  "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
+    "方向/World model/JEPA/attachments/2R4UJ7H6.jpg",
+    "经典论文精读/视觉自监督模型——.md",
     "经典论文精读/Vit.md",
     "imgs/2026-06-16/file-2026-06-16-215907398.png",
     "imgs/2026-06-16",
@@ -353,7 +355,6 @@
     "经典论文精读/DeepSeek 系列论文.md",
     "方向/World model/(2018-03-28) World Models.md",
     "通用/代码/Training Tricks.md",
-    "通用/阅读/检索、下载、评论.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
