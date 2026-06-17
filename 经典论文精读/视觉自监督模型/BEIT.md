@@ -5,7 +5,7 @@
 - **Pretext** = **An excuse or reason given to hide the real purpose**
 - 在机器学习和深度学习中，**pretext** 这个词有着稍微不同的含义，它主要指的是为实现某个任务而设计的 辅助任务，这些任务本身并不是最终目标，但它们有助于模型 学习有用的特征
 	- ==pretext tasks  不是最终目标任务，但它们帮助模型在没有标签的情况下学习有意义的特征==
-	- ==Pretext task也叫surrogate task，辅助任务，代理任务==
+	- ==Pretext task也叫surrogate task，辅助任务，代理任务，产生伪标签==
 	- 
 - 常见的 Pretext Tasks 示例：
 	- **恢复受损的输入数据**：例如去噪自编码器（Denoising Autoencoders），在这种任务中，模型的目标是恢复被噪声破坏的图像或数据。
