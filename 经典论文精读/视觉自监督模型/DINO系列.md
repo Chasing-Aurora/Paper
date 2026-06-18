@@ -1,5 +1,6 @@
 - DINO 是视觉 Transformer 做自监督学习的非常经典的工作
 - ==DINO是自监督学习与ViT结合的开创性工作==
+- [最强视觉自监督模型DINO系列超详细解读：DINO / DINOv2 / DINOv3](https://zhuanlan.zhihu.com/p/1943279068654056673)
 
 
 # 动机
@@ -30,7 +31,7 @@
 
 
 
-## DINOv3
+# DINOv3
 - DINOv3的核心就是在DINOv2的基础上，继续scaling up。
 - 
 
