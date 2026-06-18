@@ -10,9 +10,7 @@
 
 
 
-[开源类模型-API接口文档](https://next-cloud.feishu.cn/docx/SK1Vd4Yuao7nBwxtGY7cZJ1hnJc)
-[‌⁠‌​⁠​​​​​‍​​‬​‍​​‍​‌​‍​‍﻿​​‬⁠⁠‬​​​​﻿﻿​​​‍﻿﻿‍⁠⁠‬​‬智谱大模型 api接口文档 - 飞书云文档](https://next-cloud.feishu.cn/docx/U4MtdLoejolquxxOMsNcZ8pZnpf)
-以及"D:\Tencent\xwechat_files\wxid_ztztmu296fe722_76cf\msg\file\2026-06\得云AIGC大模型-价目表 (3).xlsx"
+
 
 
 - scaling up是AI领域常见的发展策略，类似NLP中GPT系列通**过增大模型和数据规模实现能力跃升**，视觉领域通过这种方式能让模型学习到更通用、更精细的视觉特征
