@@ -1,5 +1,5 @@
 - **Momentum Contrast** for Unsupervised Visual Representation Learning
-
+- ==MoCo 利用了队列和动量编码器的概念==
 
 
 ## 背景
