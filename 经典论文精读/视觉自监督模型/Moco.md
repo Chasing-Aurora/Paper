@@ -26,6 +26,7 @@
 
 1. 两路编码器：**query 编码器（快速更新）**、**momentum key 编码器（动量慢更新）**
 	- 由于==字典的key来源于之前若干个mini-batch，作者提出了一个**缓慢变化的key encoder**，具体实现为query encoder的**基于动量的移动平均值**，从而保持一致性==
+	- EMA（Exponential Moving Average）
 2. 每个图片生成 1 个 query；队列里存海量历史 key 作为负样本库
 3. 对比损失：让同一张图的 query-key 相似度最高，和队列里其他 key 相似度尽可能低
 4. ==队列循环更新：新 batch 的 key 入队，最老 batch 淘汰，实现超大负样本字典，不受显卡 batch 大小限制==
