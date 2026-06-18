@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/BYOL.md",
+                "file": "经典论文精读/视觉自监督模型/Moco.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BYOL"
+              "title": "Moco"
             }
           },
           {
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/BYOL.md",
+                "file": "经典论文精读/视觉自监督模型/Moco.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "BYOL 的大纲"
+              "title": "Moco 的大纲"
             }
           },
           {
@@ -333,14 +333,14 @@
   },
   "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
+    "经典论文精读/视觉自监督模型/BYOL.md",
+    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "imgs/2026-06-17/file-2026-06-17-221831517.png",
     "经典论文精读/视觉自监督模型/BEIT.md",
     "imgs/2026-06-17/file-2026-06-17-210346874.png",
     "imgs/2026-06-17/file-2026-06-17-205847750.png",
     "imgs/2026-06-17",
-    "经典论文精读/视觉自监督模型/BYOL.md",
     "经典论文精读/视觉自监督模型/Moco.md",
-    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "经典论文精读/视觉自监督模型/DINO系列.md",
     "经典论文精读/视觉自监督模型",
     "方向/World model/JEPA/attachments/2R4UJ7H6.jpg",
@@ -368,7 +368,6 @@
     "经典论文精读/李沐论文精度系列.md",
     "imgs/2026-06-13/file-2026-06-13-102854684.png",
     "imgs/2026-06-13/file-2026-06-13-100957049.png",
-    "imgs/2026-06-13/file-2026-06-13-100803363.png",
     "imgs/2026-06-13",
     "经典论文精读/同济子豪兄-GNN.md",
     "通用/撰写/LaTex.md",
