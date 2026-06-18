@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/DINO系列.md",
+                "file": "经典论文精读/视觉自监督模型/BYOL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DINO系列"
+              "title": "BYOL"
             }
           },
           {
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/DINO系列.md",
+                "file": "经典论文精读/视觉自监督模型/BYOL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DINO系列 的大纲"
+              "title": "BYOL 的大纲"
             }
           },
           {
@@ -333,16 +333,16 @@
   },
   "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
+    "经典论文精读/视觉自监督模型/Moco.md",
+    "经典论文精读/视觉自监督模型/BEIT.md",
     "经典论文精读/视觉自监督模型/BYOL.md",
-    "经典论文精读/视觉自监督模型/DINO系列.md",
-    "经典论文精读/视觉自监督模型/MAE.md",
-    "imgs/2026-06-18/file-2026-06-18-160007668.png",
     "经典论文精读/视觉自监督模型/MSN.md",
+    "经典论文精读/视觉自监督模型/MAE.md",
+    "经典论文精读/视觉自监督模型/DINO系列.md",
+    "imgs/2026-06-18/file-2026-06-18-160007668.png",
     "imgs/2026-06-18/file-2026-06-18-112014827.png",
     "imgs/2026-06-18/file-2026-06-18-112012388.png",
     "imgs/2026-06-18/file-2026-06-18-111339914.png",
-    "经典论文精读/视觉自监督模型/Moco.md",
-    "经典论文精读/视觉自监督模型/BEIT.md",
     "imgs/2026-06-18/file-2026-06-18-104305175.png",
     "imgs/2026-06-18/file-2026-06-18-100052722.png",
     "imgs/2026-06-18",
