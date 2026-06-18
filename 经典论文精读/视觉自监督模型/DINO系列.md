@@ -21,7 +21,10 @@
 
 
 # DINO V2
-
-
-
+- DINOv2和DINOv3都是沿着的DINO的核心架构进行scaling up的工作
 - scaling up是AI领域常见的发展策略，类似NLP中GPT系列通**过增大模型和数据规模实现能力跃升**，视觉领域通过这种方式能让模型学习到更通用、更精细的视觉特征
+
+## 动机
+- 作者参考了各种自监督学习的技术，并将它们整合。主要的贡献是加速和稳定大模型和大数据的训练。在数据层面，作者设计了一套自动化的数据清洗方法，可以将未整理过的数据变为一个专用的、多样的并且整理过的数据，形成[LVD-142M](https://zhida.zhihu.com/search?content_id=262213336&content_type=Article&match_order=1&q=LVD-142M&zhida_source=entity)数据集。在模型方面，作者换了一个1B的ViT作为基座模型
+- 
+
