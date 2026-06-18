@@ -1,5 +1,6 @@
 - Masked Siamese Networks for Label-Efficient Learning
 - 这是一种用于图像表示学习的自监督框架。**MSN将随机掩码图像的表示与未掩码图像的表示进行匹配**
+- 在 Siamese Network 的基础上使用 Mask Patch 策略，并添加原型监督的方式
 
 
 ## 方法
