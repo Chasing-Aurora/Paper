@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1799
+$version: 1802
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -184,6 +184,8 @@ $itemKey: MTP4MH69
     *   **<span style="color: rgba(0, 0, 0, 0.95);">轻量化 / 低数据场景验证</span>**<span style="color: rgba(0, 0, 0, 0.95);">：模拟真实业务缺少标注数据的场景</span>
 
 *
+
+####
 
 ### 💧 Data
 
