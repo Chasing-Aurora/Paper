@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/MSN.md",
+                "file": "经典论文精读/视觉自监督模型/DINO系列.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MSN"
+              "title": "DINO系列"
             }
           },
           {
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/MSN.md",
+                "file": "经典论文精读/视觉自监督模型/DINO系列.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MSN 的大纲"
+              "title": "DINO系列 的大纲"
             }
           },
           {
@@ -333,11 +333,11 @@
   },
   "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
+    "经典论文精读/视觉自监督模型/MSN.md",
     "imgs/2026-06-18/file-2026-06-18-112014827.png",
     "imgs/2026-06-18/file-2026-06-18-112012388.png",
     "经典论文精读/视觉自监督模型/MAE.md",
     "imgs/2026-06-18/file-2026-06-18-111339914.png",
-    "经典论文精读/视觉自监督模型/MSN.md",
     "经典论文精读/视觉自监督模型/Moco.md",
     "经典论文精读/视觉自监督模型/BYOL.md",
     "经典论文精读/视觉自监督模型/BEIT.md",
@@ -368,7 +368,6 @@
     "通用/组卡和租卡.md",
     "方向/World model/JEPA/发展路线.md",
     "方向/World model/腾讯会议/6.20.md",
-    "imgs/2026-06-13/file-2026-06-13-152953797.png",
     "方向/World model/电影.md",
     "方向/World model/腾讯会议",
     "经典论文精读/李沐论文精度系列.md",
