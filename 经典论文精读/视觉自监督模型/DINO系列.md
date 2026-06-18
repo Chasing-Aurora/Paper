@@ -7,9 +7,18 @@
 - 作者想探究一下使用自监督学习(Self-supervised Learning)，而不是监督学习(Supervised Learning)的方式，是否会让Vision Transformer性能更好。其**动机来源于Transformer 在 NLP 领域取得成功的主要因素之一是使用了自监督预训练**，例如BERT 的 Masked Language Modeling 或者 GPT 的 Language Modeling
 - 然而，在图像领域，==图像级别的监督训练任务通常会将图像中包含的丰富视觉信息简化，从而导致学习到的特征不够优质==
 
+# DINO v1
+## 方法
+![](../../imgs/2026-06-18/file-2026-06-18-160007668.png)
+
+
+- 
 
 
 
+
+
+# DINO V2
 
 
 
