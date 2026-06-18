@@ -28,3 +28,10 @@
 - 作者参考了各种自监督学习的技术，并将它们整合。主要的贡献是加速和稳定大模型和大数据的训练。在数据层面，作者设计了一套自动化的数据清洗方法，可以将未整理过的数据变为一个专用的、多样的并且整理过的数据，形成[LVD-142M](https://zhida.zhihu.com/search?content_id=262213336&content_type=Article&match_order=1&q=LVD-142M&zhida_source=entity)数据集。在模型方面，作者换了一个1B的ViT作为基座模型
 - 
 
+
+
+## DINOv3
+- DINOv3的核心就是在DINOv2的基础上，继续scaling up。
+- 
+
+
