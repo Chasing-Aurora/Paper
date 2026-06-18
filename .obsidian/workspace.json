@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/MAE.md",
+                "file": "经典论文精读/视觉自监督模型/MSN.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MAE"
+              "title": "MSN"
             }
           },
           {
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/MAE.md",
+                "file": "经典论文精读/视觉自监督模型/MSN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MAE 的大纲"
+              "title": "MSN 的大纲"
             }
           },
           {
@@ -333,9 +333,9 @@
   },
   "active": "ccf07f9a71c4c42d",
   "lastOpenFiles": [
+    "经典论文精读/视觉自监督模型/MAE.md",
     "imgs/2026-06-18/file-2026-06-18-111339914.png",
     "经典论文精读/视觉自监督模型/MSN.md",
-    "经典论文精读/视觉自监督模型/MAE.md",
     "经典论文精读/视觉自监督模型/Moco.md",
     "经典论文精读/视觉自监督模型/BYOL.md",
     "经典论文精读/视觉自监督模型/BEIT.md",
@@ -368,7 +368,6 @@
     "方向/World model/腾讯会议/6.20.md",
     "imgs/2026-06-13/file-2026-06-13-152953797.png",
     "imgs/2026-06-13/file-2026-06-13-152811716.png",
-    "imgs/2026-06-13/file-2026-06-13-150531060.png",
     "方向/World model/电影.md",
     "方向/World model/腾讯会议",
     "经典论文精读/李沐论文精度系列.md",
