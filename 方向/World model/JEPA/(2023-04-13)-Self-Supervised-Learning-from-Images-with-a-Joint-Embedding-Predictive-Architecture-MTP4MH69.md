@@ -193,7 +193,9 @@ $itemKey: MTP4MH69
 
 ##### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B424.42815999999976%2C471.96607840000024%2C545.1150963999999%2C480.6036526000002%5D%2C%5B308.86199999999997%2C460.01107840000026%2C511.41162059999937%2C468.6486526000002%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=6">“low-level and dense prediction tasks, such as object counting and depth prediction”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 6</a></span>)</span>
 
-*   ##### so to count an object you don't need pixel level information you just need rough  even representational information might suffice######### Color Jittering
+1.  so to count an object you don't need pixel level information you just need rough  even representational information might suffice
+
+2.  Color Jittering
 
     *
 
