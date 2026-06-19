@@ -30,57 +30,8 @@
               "icon": "lucide-file",
               "title": "电影"
             }
-          },
-          {
-            "id": "6e3a0c35e77eb3ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "通用/组卡和租卡.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "组卡和租卡"
-            }
-          },
-          {
-            "id": "bb6b81bc439b77ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+                "file": "方向/World model/电影.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9 的大纲"
+              "title": "电影 的大纲"
             }
           },
           {
@@ -283,12 +234,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb6b81bc439b77ef",
+  "active": "7678aa64e4f81420",
   "lastOpenFiles": [
-    "经典论文精读/视觉自监督模型/BYOL.md",
-    "方向/World model/JEPA/(2023-04-13)-Self-Supervised-Learning-from-Images-with-a-Joint-Embedding-Predictive-Architecture-MTP4MH69.md",
-    "通用/阅读/软件+插件+阅读.md",
+    "方向/World model/JEPA/I-JEPA-MTP4MH69.md",
     "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
+    "方向/World model/JEPA/V-JEPA-GB8P39Y2.md",
+    "通用/组卡和租卡.md",
+    "经典论文精读/视觉自监督模型/BYOL.md",
+    "通用/阅读/软件+插件+阅读.md",
     "经典论文精读/视觉自监督模型/Moco.md",
     "经典论文精读/视觉自监督模型/BEIT.md",
     "经典论文精读/视觉自监督模型/MSN.md",
@@ -317,7 +270,6 @@
     "方向/SEG",
     "方向/未命名.md",
     "方向/World model/(2018-03-28)-World-Models-KEYYFLMD.md",
-    "通用/组卡和租卡.md",
     "方向/World model/JEPA/发展路线.md",
     "方向/World model/腾讯会议/6.20.md",
     "方向/World model/电影.md",

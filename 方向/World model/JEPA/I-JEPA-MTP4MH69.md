@@ -4,6 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
+    - self-supervised
 $version: 1940
 $libraryID: 1
 $itemKey: MTP4MH69
