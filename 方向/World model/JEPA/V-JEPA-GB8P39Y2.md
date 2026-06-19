@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 1952
+$version: 1956
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -40,7 +40,7 @@ $itemKey: GB8P39Y2
 
 ### abstract
 
-*
+*   retina：视网膜，<span style="color: rgba(0, 0, 0, 0.95);">眼球内壁感光薄膜，含视锥、视杆细胞，接收光线转化信号传给大脑形成视觉</span>
 
 ### 💧 Data
 
