@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 1967
+$version: 1971
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -46,7 +46,7 @@ $itemKey: GB8P39Y2
 
 *   posit：**<span style="color: rgba(0, 0, 0, 0.95);">假定；假设</span>**<span style="color: rgba(0, 0, 0, 0.95);">（学术高频）</span>
 
-*
+*   <span style="color: rgba(0, 0, 0, 0.95);">visual stimuli：视觉刺激</span>
 
 ### 💧 Data
 
