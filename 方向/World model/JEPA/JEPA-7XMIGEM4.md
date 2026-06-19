@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2199
+$version: 2209
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -95,6 +95,10 @@ $itemKey: 7XMIGEM4
     *   <span style="background-color: rgba(255, 212, 0, 0.5);">编码器<span class="math">$\text{Enc}$</span>把原始观测压缩成</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">内在状态s</span></span>**<span style="background-color: rgba(255, 212, 0, 0.5);">，只保留对预测、匹配有用的核心信息</span>
 
     *   <span style="background-color: rgba(255, 212, 0, 0.5);">这个</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">s</span></span><span style="background-color: rgba(255, 212, 0, 0.5);">代表模型眼中 “世界当前片段的状态”，因此命名为 State</span>
+
+*   <span style="background-color: rgba(255, 212, 0, 0.5);">坍缩：模型找到了一条 </span>**<span style="background-color: rgba(255, 212, 0, 0.5);">偷懒的</span>**<span style="background-color: rgba(255, 212, 0, 0.5);"> “作弊捷径”，不再学习数据内在依赖关系</span>
+
+    *
 
 ### 👩🏻‍💻 Method
 
