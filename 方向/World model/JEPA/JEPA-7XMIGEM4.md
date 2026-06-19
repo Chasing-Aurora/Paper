@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2007
+$version: 2043
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -30,6 +30,22 @@ $itemKey: 7XMIGEM4
 
 ### ⚙️ Content
 
+#### APA 与 MLA：有什么区别？完整对比
+
+|                                                                                                                     | **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">APA</span></span>**         | **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">MLA</span></span>**     |
+| ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">适用领域</span></span>**    | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">社会科学、心理学、教育学</span></span>    | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">人文学科、文学、语言学</span></span> |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">文内引用格式</span></span>**  | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">(作者 年份)</span></span>         | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">(作者 页码)</span></span>     |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">参考文献标题</span></span>**  | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">References</span></span>      | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">Works Cited</span></span> |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">日期位置</span></span>**    | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">作者后面</span></span>            | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">引用末尾</span></span>        |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">期刊名称</span></span>**    | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">斜体，首字母大写</span></span>        | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">斜体，首字母大写</span></span>    |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">书名</span></span>**      | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">斜体，句式大小写</span></span>        | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">斜体，标题大小写</span></span>    |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">作者格式</span></span>**    | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">姓，名首字母缩写</span></span>        | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">姓，名</span></span>         |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">URL/DOI</span></span>** | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">必须包含</span></span>            | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">通常包含</span></span>        |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">缩写</span></span>**      | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">et al., p., pp.</span></span> | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">et al.</span></span>      |
+| **<span style="color: rgb(17, 24, 39);"><span style="background-color: rgb(255, 255, 255);">页码格式</span></span>**    | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">引用中用 (p. ##)</span></span>    | <span style="color: rgb(55, 65, 81);"><span style="background-color: rgb(255, 255, 255);">引用中用 (页码)</span></span>   |
+
+
 ### 💡 Innovations
 
 ### 🧩 Shortcomings
@@ -40,8 +56,7 @@ $itemKey: 7XMIGEM4
 
 ### 💧 Data
 
-*   关于 JEPA 的基本架构，会有很多图表
-*
+*   JEPA 最初版论文，关于其基本架构，会有很多图表
 
 ### 👩🏻‍💻 Method
 
