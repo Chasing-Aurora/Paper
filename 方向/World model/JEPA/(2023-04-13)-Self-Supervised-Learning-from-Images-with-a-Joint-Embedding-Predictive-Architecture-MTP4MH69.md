@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1872
+$version: 1874
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -189,7 +189,7 @@ $itemKey: MTP4MH69
 
     *   **<span style="color: rgba(0, 0, 0, 0.95);">轻量化 / 低数据场景验证</span>**<span style="color: rgba(0, 0, 0, 0.95);">：模拟真实业务缺少标注数据的场景</span>
 
-*   <span style="background-color: rgba(255, 212, 0, 0.5);">ImageNet 22k 是ImageNet的完整版本，包含22000个类别的图像，大约</span><span style="background-color: rgba(255, 212, 0, 0.5);">1400万张图像组成</span>。与ImageNet 1k相比，ImageNet 22k的类别数量和数据规模都大大增加
+*   <span style="background-color: rgba(255, 212, 0, 0.5);">ImageNet 22k 是ImageNet的完整版本，包含22000个类别的图像，大约1400万张图像组成</span>。与ImageNet 1k相比，ImageNet 22k的类别数量和数据规模都大大增加
 
 ##### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B424.42815999999976%2C471.96607840000024%2C545.1150963999999%2C480.6036526000002%5D%2C%5B308.86199999999997%2C460.01107840000026%2C511.41162059999937%2C468.6486526000002%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=6">“low-level and dense prediction tasks, such as object counting and depth prediction”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 6</a></span>)</span>
 
