@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2160
+$version: 2199
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
