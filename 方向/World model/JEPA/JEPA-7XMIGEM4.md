@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2077
+$version: 2111
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -68,12 +68,17 @@ $itemKey: 7XMIGEM4
 
 *   **<span style="color: rgb(0, 0, 0);"><span style="">EBM 对比普通模型的优势</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">：天然支持</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">多模态依赖</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">，一个x可以对应无穷多合理y，完美适配图像补全、视频预测这类存在多种合理答案的任务。</span></span>
 
-#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2219%22%2C%22position%22%3A%7B%22pageIndex%22%3A18%2C%22rects%22%3A%5B%5B138.74%2C532.1196346%2C347.66767712%2C541.6869153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2219%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=19">“Latent-Variable Energy-Based Model (LVEBM).”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2219%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 19</a></span>)</span><span style="color: rgb(0, 0, 0);"><span style="">Inference）</span></span>
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2219%22%2C%22position%22%3A%7B%22pageIndex%22%3A18%2C%22rects%22%3A%5B%5B138.74%2C532.1196346%2C347.66767712%2C541.6869153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2219%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=19">“Latent-Variable Energy-Based Model (LVEBM).”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2219%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 19</a></span>)</span>
 
-1.  <span style="color: rgb(0, 0, 0);"><span style="">给定观测对 \((x,y)\)；</span></span>
-2.  <span style="color: rgb(0, 0, 0);"><span style="">在隐变量全集 \(\mathcal{Z}\) 里搜索，找到让三元能量 \(E_w(x,y,z)\) 最小的隐变量 \(\tilde{z}\)；</span></span>
-3.  <span style="color: rgb(0, 0, 0);"><span style="">将最优隐变量代入三元能量，得到只关于 \(x,y\) 的等效能量 \(F_w(x,y)\)；</span></span>
-4.  <span style="color: rgb(0, 0, 0);"><span style="">用 \(F_w(x,y)\) 的大小判断 \(x,y\) 是否兼容：能量越低，二者匹配度越高。</span></span>
+*   #### <span style="color: rgb(0, 0, 0);"><span style="">LVEBM  Inference 的过程</span></span>
+
+1.  <span style="color: rgb(0, 0, 0);"><span style="">给定观测对  \((x,y)\)；</span></span>
+
+2.  <span style="color: rgb(0, 0, 0);"><span style="">在隐变量全集 </span></span> $\mathcal{Z}$ <span style="color: rgb(0, 0, 0);"><span style=""> 里搜索，找到让三元能量 </span></span> $E_w(x,y,z)$ <span style="color: rgb(0, 0, 0);"><span style=""> 最小的隐变量 </span></span> $\tilde{z}$ <span style="color: rgb(0, 0, 0);"><span style="">；</span></span>
+
+3.  <span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">将最优隐变量代入三元能量，得到只关于 </span></span><span style="background-color: rgba(255, 212, 0, 0.5);"><span class="math">$x,y$</span></span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 的等效能量 </span></span><span style="background-color: rgba(255, 212, 0, 0.5);"><span class="math">$F_w(x,y)$</span></span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">；</span></span>
+
+4.  <span style="color: rgb(0, 0, 0);"><span style="">用 $F_w(x,y)$ 的大小判断 $x,y$ 是否兼容：能量越低，二者匹配度越高。</span></span>
 
 ### 👩🏻‍💻 Method
 
