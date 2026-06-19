@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/BYOL.md",
+                "file": "通用/阅读/软件+插件+阅读.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "BYOL 的大纲"
+              "title": "软件+插件+阅读 的大纲"
             }
           },
           {
@@ -331,10 +331,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccf07f9a71c4c42d",
+  "active": "5806345a224f6132",
   "lastOpenFiles": [
-    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "经典论文精读/视觉自监督模型/BYOL.md",
+    "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "经典论文精读/视觉自监督模型/Moco.md",
     "经典论文精读/视觉自监督模型/BEIT.md",
     "经典论文精读/视觉自监督模型/MSN.md",
