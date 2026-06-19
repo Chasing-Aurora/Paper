@@ -4,7 +4,7 @@ parent: 'Self-Supervised Learning from Images with a Joint-Embedding Predictive 
 collections:
     - 'World model'
     - JEPA
-$version: 1816
+$version: 1861
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -189,19 +189,38 @@ $itemKey: MTP4MH69
 
     *   **<span style="color: rgba(0, 0, 0, 0.95);">轻量化 / 低数据场景验证</span>**<span style="color: rgba(0, 0, 0, 0.95);">：模拟真实业务缺少标注数据的场景</span>
 
-*
+*   <span style="background-color: rgba(255, 212, 0, 0.5);">ImageNet 22k 是ImageNet的完整版本，包含22000个类别的图像，大约</span><span style="background-color: rgba(255, 212, 0, 0.5);">1400万张图像组成</span>。与ImageNet 1k相比，ImageNet 22k的类别数量和数据规模都大大增加
 
 ##### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B424.42815999999976%2C471.96607840000024%2C545.1150963999999%2C480.6036526000002%5D%2C%5B308.86199999999997%2C460.01107840000026%2C511.41162059999937%2C468.6486526000002%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=6">“low-level and dense prediction tasks, such as object counting and depth prediction”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 6</a></span>)</span>
 
-1.  so to count an object you don't need pixel level information you just need rough  even representational information might suffice
+*   <span style="color: rgb(87, 96, 106);">目标计数时，模型</span>**<span style="color: rgb(87, 96, 106);">不需要精细像素级细节</span>**<span style="color: rgb(87, 96, 106);">，仅靠粗略、概括性表征信息就足够完成任务</span>
 
-2.  Color Jittering
+##### Color Jittering——<span style="color: rgb(0, 0, 0);"><span style="background-color: rgb(255, 255, 255);">颜色抖动</span></span>
 
-    *
+*   ![\<img alt="" width="633" height="408" data-attachment-key="BHPF9KW9" src="attachments/BHPF9KW9.png" ztype="zimage"> | 633](attachments/BHPF9KW9.png)
 
-    ## **<span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">jigsaw puzzle</span></span>**
+<!---->
 
-    *
+*   颜色抖动（Color Jitter）是一种基于颜色的数据增强方法，它通过随机改变图像的亮度、对比度、饱和度和色相，来扩大训练阶段所见到的颜色分布
+
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">降低模型对颜色变化的敏感度</span>
+
+<!---->
+
+```
+brightness_transform = transforms.ColorJitter(brightness=0.5) 
+bright_img = brightness_transform(img)
+```
+
+##### [jigsaw puzzle](https://www.zhihu.com/question/491758602/answer/2167900779)
+
+*   <span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">jigsaw是锯子/切割的意思</span></span><span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">puzzle指所有令人难以理解/困惑的事物</span></span>
+
+*   <span style="background-color: rgba(255, 212, 0, 0.5);">jigsaw puzzle是 puzzle中的一种。 也就是 ｛将被切割好的各种小块块拼在一起还原成一张图画｝的这个行为</span>
+
+    *   ![\<img alt="" width="701" height="495" data-attachment-key="ENKHVBLL" src="attachments/ENKHVBLL.png" ztype="zimage"> | 701](attachments/ENKHVBLL.png)
+
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B320.8172%2C327.79036320000034%2C374.6275551999999%2C338.5380880000003%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=6">“Scalability”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 6</a></span>)</span>
 
 ### 📜 Conclusion
 
