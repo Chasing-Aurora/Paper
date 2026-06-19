@@ -5,7 +5,7 @@ collections:
     - 'World model'
     - JEPA
     - self-supervised
-$version: 1940
+$version: 1947
 $libraryID: 1
 $itemKey: MTP4MH69
 
