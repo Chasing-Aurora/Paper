@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2004
+$version: 2007
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -39,6 +39,9 @@ $itemKey: 7XMIGEM4
 ***
 
 ### 💧 Data
+
+*   关于 JEPA 的基本架构，会有很多图表
+*
 
 ### 👩🏻‍💻 Method
 
