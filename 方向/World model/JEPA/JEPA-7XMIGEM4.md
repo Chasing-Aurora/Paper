@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2155
+$version: 2160
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -22,7 +22,7 @@ $itemKey: 7XMIGEM4
 | **<span style="color: rgb(25, 60, 71);"><span style="background-color: rgb(243, 250, 244);">Note Date: </span></span>**<span style="color: rgb(25, 60, 71);"><span style="background-color: rgb(243, 250, 244);">2026/6/19 17:33:56</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 
-\><https://youtu.be/7UkJPwz_N_0?t=587>
+> <https://youtu.be/7UkJPwz_N_0?t=587>
 
 ## <span style="color: rgb(224, 255, 255);"><span style="background-color: rgb(102, 205, 170);">📜 Research Core</span></span>
 
@@ -94,7 +94,7 @@ $itemKey: 7XMIGEM4
 
     *   <span style="background-color: rgba(255, 212, 0, 0.5);">编码器<span class="math">$\text{Enc}$</span>把原始观测压缩成</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">内在状态s</span></span>**<span style="background-color: rgba(255, 212, 0, 0.5);">，只保留对预测、匹配有用的核心信息</span>
 
-    *
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">这个</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">s</span></span><span style="background-color: rgba(255, 212, 0, 0.5);">代表模型眼中 “世界当前片段的状态”，因此命名为 State</span>
 
 ### 👩🏻‍💻 Method
 
