@@ -5,7 +5,7 @@ collections:
     - 'World model'
     - JEPA
     - self-supervised
-$version: 1947
+$version: 2159
 $libraryID: 1
 $itemKey: MTP4MH69
 
@@ -24,7 +24,7 @@ $itemKey: MTP4MH69
 | **<span style="color: rgb(25, 60, 71);"><span style="background-color: rgb(243, 250, 244);">Note Date: </span></span>**<span style="color: rgb(25, 60, 71);"><span style="background-color: rgb(243, 250, 244);">2026/6/8 17:08:34</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 
-2h 的讲解视频：<https://youtu.be/t_RvDTzi3vU?t=2>
+> 2h 的讲解视频：<https://youtu.be/t_RvDTzi3vU?t=2>
 
 ## <span style="color: rgb(224, 255, 255);"><span style="background-color: rgb(102, 205, 170);">📜 Research Core</span></span>
 

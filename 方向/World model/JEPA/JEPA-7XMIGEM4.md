@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2139
+$version: 2155
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -21,6 +21,8 @@ $itemKey: 7XMIGEM4
 | **<span style="color: rgb(25, 60, 71);"><span style="background-color: rgb(219, 238, 221);">Tags:</span></span>**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **<span style="color: rgb(25, 60, 71);"><span style="background-color: rgb(243, 250, 244);">Note Date: </span></span>**<span style="color: rgb(25, 60, 71);"><span style="background-color: rgb(243, 250, 244);">2026/6/19 17:33:56</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
+
+\><https://youtu.be/7UkJPwz_N_0?t=587>
 
 ## <span style="color: rgb(224, 255, 255);"><span style="background-color: rgb(102, 205, 170);">📜 Research Core</span></span>
 
@@ -83,7 +85,16 @@ $itemKey: 7XMIGEM4
 #### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2221%22%2C%22position%22%3A%7B%22pageIndex%22%3A20%2C%22rects%22%3A%5B%5B144.195%2C509.5326346%2C405.5598259599999%2C519.0999153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=21">“A few standard architectures and their capacity for collapse.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 21</a></span>)</span>
 
 *   <span style="color: rgba(0, 0, 0, 0.95);">deterministic algorithm 确定性算法</span>
-*
+
+*   $s_x=\text{Enc}(x)$、$s_y=\text{Enc}(y)$，是编码器 Enc 压缩提取后的**<span style="color: rgb(0, 0, 0);"><span style="">低维特征表征</span></span>**
+
+    *   **<span style="color: rgb(0, 0, 0);"><span style="">s = State</span></span>** 中文：**<span style="color: rgb(0, 0, 0);"><span style="">状态表征 / 内在状态向量</span></span>**
+
+    *   这套符号来自 LeCun 提出的**<span style="color: rgb(0, 0, 0);"><span style="">世界模型 / JEPA 联合嵌入预测架构</span></span>**
+
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">编码器<span class="math">$\text{Enc}$</span>把原始观测压缩成</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">内在状态s</span></span>**<span style="background-color: rgba(255, 212, 0, 0.5);">，只保留对预测、匹配有用的核心信息</span>
+
+    *
 
 ### 👩🏻‍💻 Method
 
