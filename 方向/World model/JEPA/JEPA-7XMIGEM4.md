@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2311
+$version: 2324
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -124,7 +124,7 @@ $itemKey: 7XMIGEM4
 
     *   <span style="background-color: rgba(255, 102, 102, 0.5);">隐变量</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">z</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">只负责离散 / 有限语义选择，</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">z</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">仅编码少数关键分支（左 / 右转、物体姿态），维度极低、容量可控，不会出现之前说的 “任意</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">y</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">都能零误差” 的坍缩问题</span>
 
-    *   $\boldsymbol{R(z)}$  —— 最小化隐变量<span style="color: rgb(0, 0, 0);"><span style="">z</span></span>的信息量
+    *   <span style="background-color: rgba(255, 102, 102, 0.5);"><span class="math">$\boldsymbol{R(z)}$</span> —— 最小化隐变量z的信息量</span>
 
         *   禁止<span style="color: rgb(0, 0, 0);"><span style="">z</span></span>容量过大，避免就像之前的 生成式<span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2221%22%2C%22position%22%3A%7B%22pageIndex%22%3A20%2C%22rects%22%3A%5B%5B86.4%2C509.5326346%2C131.73058323%2C519.0999153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=21">“Figure 10”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 21</a></span>)</span>的b图 的：：： “任意<span style="color: rgb(0, 0, 0);"><span style="">y</span></span>都能零误差拟合” 的坍缩问题
 
@@ -140,9 +140,15 @@ $itemKey: 7XMIGEM4
 
     *   最小化  $-I$ <span style="color: rgb(0, 0, 0);"><span style=""></span></span>等价于**<span style="color: rgb(0, 0, 0);"><span style="">最大化信息量</span></span>**
 
+    *   $\boldsymbol{R(z)}$ —— 最小化隐变量<span style="color: rgb(0, 0, 0);">z</span>的信息量
+
 *   实现 \*\* 无对比学习（non-contrastive）\*\* 训练，不需要负样本
 
-    *
+    *   不存在负样本不足、批量大小受限的工程问题
+
+*   <span style="background-color: rgba(255, 102, 102, 0.5);">如果用传统对比学习训练 JEPA，会遭遇</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">维度灾难（curse of dimensionality）</span></span>**<span style="background-color: rgba(255, 102, 102, 0.5);">： 表征<span class="math">$s_y$</span> 维度越高，需要的负样本数量指数级上涨，硬件、显存开销爆炸，直接限制<span class="math">$s_y$</span> 的可用维度上限</span>
+
+####
 
 ### 👩🏻‍💻 Method
 
