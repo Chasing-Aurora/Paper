@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2324
+$version: 2355
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -148,7 +148,29 @@ $itemKey: 7XMIGEM4
 
 *   <span style="background-color: rgba(255, 102, 102, 0.5);">如果用传统对比学习训练 JEPA，会遭遇</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">维度灾难（curse of dimensionality）</span></span>**<span style="background-color: rgba(255, 102, 102, 0.5);">： 表征<span class="math">$s_y$</span> 维度越高，需要的负样本数量指数级上涨，硬件、显存开销爆炸，直接限制<span class="math">$s_y$</span> 的可用维度上限</span>
 
-####
+    *   curse 这里指的是 固有的灾难/弊端
+
+    *   视频讲解：<https://youtu.be/9Tf-_mJhOkU?t=2>
+
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">As dimensions increase, the same amount of data becomes increasingly sparse</span>
+
+    *   ![\<img alt="" width="1772" height="960" data-attachment-key="WVDZ6FKA" src="attachments/WVDZ6FKA.png" ztype="zimage"> | 1772](attachments/WVDZ6FKA.png)
+
+        *   随着尺寸增大，几乎所有点都会远离中心
+
+    *   为了正确训练模型，我们需要数据在低维空间中能够较好地覆盖输入空间
+
+        *   <span style="background-color: rgba(255, 212, 0, 0.5);">但是，随着维度的增加，维持相同覆盖范围所需的数据量呈指数级增长。</span>
+        *   <span style="background-color: rgba(255, 212, 0, 0.5);">随着维度增加，数据需求呈指数级增长。</span>
+        *   <span style="background-color: rgba(255, 212, 0, 0.5);">此外，高维空间中的随机向量往往彼此几乎垂直，因为太稀疏了。</span>
+
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2228%22%2C%22position%22%3A%7B%22pageIndex%22%3A27%2C%22rects%22%3A%5B%5B144.195%2C456.5176346%2C280.89382712%2C466.08491530000003%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2228%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=28">“Training a JEPA with VICReg.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2228%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 28</a></span>)</span>
+
+*
+
+<!---->
+
+*
 
 ### 👩🏻‍💻 Method
 

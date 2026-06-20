@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/MSN.md",
+                "file": "方向/World model/JEPA/发展路线.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MSN"
+              "title": "发展路线"
             }
           }
         ],
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经典论文精读/视觉自监督模型/MSN.md",
+                "file": "方向/World model/JEPA/发展路线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MSN 的大纲"
+              "title": "发展路线 的大纲"
             }
           },
           {
@@ -285,8 +285,9 @@
   },
   "active": "8aeefe9cd9fd7bf0",
   "lastOpenFiles": [
-    "经典论文精读/视觉自监督模型/BEIT.md",
     "经典论文精读/视觉自监督模型/MSN.md",
+    "方向/World model/JEPA/attachments/WVDZ6FKA.png",
+    "经典论文精读/视觉自监督模型/BEIT.md",
     "经典论文精读/视觉自监督模型/Moco.md",
     "经典论文精读/视觉自监督模型/MAE.md",
     "经典论文精读/视觉自监督模型/DINO系列.md",
@@ -310,7 +311,6 @@
     "imgs/2026-06-17/file-2026-06-17-205847750.png",
     "imgs/2026-06-17",
     "经典论文精读/视觉自监督模型",
-    "方向/World model/JEPA/attachments/2R4UJ7H6.jpg",
     "经典论文精读/Vit.md",
     "imgs/2026-06-16",
     "方向/World model/前置的概念.md",
@@ -327,7 +327,6 @@
     "经典论文精读/李沐论文精度系列.md",
     "imgs/2026-06-13",
     "经典论文精读/同济子豪兄-GNN.md",
-    "通用/撰写/LaTex.md",
     "imgs/2026-06-12",
     "imgs/2026-06-11",
     "imgs/2026-06-10",
