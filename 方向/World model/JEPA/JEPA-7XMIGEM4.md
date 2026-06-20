@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2266
+$version: 2311
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -124,6 +124,10 @@ $itemKey: 7XMIGEM4
 
     *   <span style="background-color: rgba(255, 102, 102, 0.5);">隐变量</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">z</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">只负责离散 / 有限语义选择，</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">z</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">仅编码少数关键分支（左 / 右转、物体姿态），维度极低、容量可控，不会出现之前说的 “任意</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">y</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">都能零误差” 的坍缩问题</span>
 
+    *   $\boldsymbol{R(z)}$  —— 最小化隐变量<span style="color: rgb(0, 0, 0);"><span style="">z</span></span>的信息量
+
+        *   禁止<span style="color: rgb(0, 0, 0);"><span style="">z</span></span>容量过大，避免就像之前的 生成式<span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2221%22%2C%22position%22%3A%7B%22pageIndex%22%3A20%2C%22rects%22%3A%5B%5B86.4%2C509.5326346%2C131.73058323%2C519.0999153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=21">“Figure 10”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 21</a></span>)</span>的b图 的：：： “任意<span style="color: rgb(0, 0, 0);"><span style="">y</span></span>都能零误差拟合” 的坍缩问题
+
 *   编码器 Enc
 
     *   <span style="background-color: rgba(255, 102, 102, 0.5);">编码器 <span class="math">$\text{Enc}(y)$</span></span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);"> </span></span><span style="background-color: rgba(255, 102, 102, 0.5);">具备</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">不变性</span></span>**<span style="background-color: rgba(255, 102, 102, 0.5);">：多个视觉上完全不同的原始</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">y</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">，只要核心语义一致，会输出完全相同的<span class="math">$s_y$</span></span>
@@ -131,6 +135,14 @@ $itemKey: 7XMIGEM4
     *   编码器过滤冗余噪声：无关细节直接丢弃，模型不用学习无意义纹理
 
 #### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2226%22%2C%22position%22%3A%7B%22pageIndex%22%3A25%2C%22rects%22%3A%5B%5B144.195%2C495.9666346%2C293.5911608200001%2C505.53391530000005%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2226%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=26">“Non-contrastive training of JEPA.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 26</a></span>)</span>
+
+*   四条约束联合杜绝模型坍缩（collapse）
+
+    *   最小化  $-I$ <span style="color: rgb(0, 0, 0);"><span style=""></span></span>等价于**<span style="color: rgb(0, 0, 0);"><span style="">最大化信息量</span></span>**
+
+*   实现 \*\* 无对比学习（non-contrastive）\*\* 训练，不需要负样本
+
+    *
 
 ### 👩🏻‍💻 Method
 
