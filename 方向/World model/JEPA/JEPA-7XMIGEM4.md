@@ -130,7 +130,7 @@ $itemKey: 7XMIGEM4
 
     *   编码器过滤冗余噪声：无关细节直接丢弃，模型不用学习无意义纹理
 
-*
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2226%22%2C%22position%22%3A%7B%22pageIndex%22%3A25%2C%22rects%22%3A%5B%5B144.195%2C495.9666346%2C293.5911608200001%2C505.53391530000005%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2226%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=26">“Non-contrastive training of JEPA.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 26</a></span>)</span>
 
 ### 👩🏻‍💻 Method
 
