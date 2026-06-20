@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2209
+$version: 2266
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -64,33 +64,33 @@ $itemKey: 7XMIGEM4
 
 *   <span style="color: rgba(0, 0, 0, 0.95);"><span style="background-color: rgba(255, 212, 0, 0.5);">plausible：看似合理的、说得通的</span></span>
 
-*   **<span style="color: rgb(0, 0, 0);"><span style="">自监督 SSL 本质</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">：不用人工标签，让模型自动挖掘输入内部的依赖关系，完成「补全缺失信息」的填空任务；输入拆成已知观测x、未知待求y。</span></span>
+*   **<span style="color: rgb(0, 0, 0);">自监督 SSL 本质</span>**<span style="color: rgb(0, 0, 0);">：不用人工标签，让模型自动挖掘输入内部的依赖关系，完成「补全缺失信息」的填空任务；输入拆成已知观测x、未知待求y。</span>
 
-*   **<span style="color: rgb(0, 0, 0);"><span style="">EBM 建模思路</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">：设计能量函数\(F(x,y)\)量化\(x,y\)匹配度，训练目标是让真实数据对能量尽可能小，虚假组合能量尽可能大。</span></span>
+*   **<span style="color: rgb(0, 0, 0);">EBM 建模思路</span>**<span style="color: rgb(0, 0, 0);">：设计能量函数\(F(x,y)\)量化\(x,y\)匹配度，训练目标是让真实数据对能量尽可能小，虚假组合能量尽可能大。</span>
 
-*   **<span style="color: rgb(0, 0, 0);"><span style="">EBM 对比普通模型的优势</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">：天然支持</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">多模态依赖</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">，一个x可以对应无穷多合理y，完美适配图像补全、视频预测这类存在多种合理答案的任务。</span></span>
+*   **<span style="color: rgb(0, 0, 0);">EBM 对比普通模型的优势</span>**<span style="color: rgb(0, 0, 0);">：天然支持</span>**<span style="color: rgb(0, 0, 0);">多模态依赖</span>**<span style="color: rgb(0, 0, 0);">，一个x可以对应无穷多合理y，完美适配图像补全、视频预测这类存在多种合理答案的任务。</span>
 
 #### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2219%22%2C%22position%22%3A%7B%22pageIndex%22%3A18%2C%22rects%22%3A%5B%5B138.74%2C532.1196346%2C347.66767712%2C541.6869153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2219%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=19">“Latent-Variable Energy-Based Model (LVEBM).”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2219%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 19</a></span>)</span>
 
-*   #### <span style="color: rgb(0, 0, 0);"><span style="">LVEBM  Inference 的过程</span></span>
+*   #### <span style="color: rgb(0, 0, 0);">LVEBM  Inference 的过程</span>
 
-1.  <span style="color: rgb(0, 0, 0);"><span style="">给定观测对  \((x,y)\)；</span></span>
+1.  <span style="color: rgb(0, 0, 0);">给定观测对  \((x,y)\)；</span>
 
-2.  <span style="color: rgb(0, 0, 0);"><span style="">在隐变量全集 </span></span> $\mathcal{Z}$ <span style="color: rgb(0, 0, 0);"><span style=""> 里搜索，找到让三元能量 </span></span> $E_w(x,y,z)$ <span style="color: rgb(0, 0, 0);"><span style=""> 最小的隐变量 </span></span> $\tilde{z}$ <span style="color: rgb(0, 0, 0);"><span style="">；</span></span>
+2.  <span style="color: rgb(0, 0, 0);">在隐变量全集 </span> $\mathcal{Z}$ <span style="color: rgb(0, 0, 0);"> 里搜索，找到让三元能量 </span> $E_w(x,y,z)$ <span style="color: rgb(0, 0, 0);"> 最小的隐变量 </span> $\tilde{z}$ <span style="color: rgb(0, 0, 0);">；</span>
 
 3.  <span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">将最优隐变量代入三元能量，得到只关于 </span></span><span style="background-color: rgba(255, 212, 0, 0.5);"><span class="math">$x,y$</span></span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 的等效能量 </span></span><span style="background-color: rgba(255, 212, 0, 0.5);"><span class="math">$F_w(x,y)$</span></span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">；</span></span>
 
-4.  <span style="color: rgb(0, 0, 0);"><span style="">用 $F_w(x,y)$ 的大小判断 $x,y$ 是否兼容：能量越低，二者匹配度越高。</span></span>
+4.  <span style="color: rgb(0, 0, 0);">用 $F_w(x,y)$ 的大小判断 $x,y$ 是否兼容：能量越低，二者匹配度越高。</span>
 
 #### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2221%22%2C%22position%22%3A%7B%22pageIndex%22%3A20%2C%22rects%22%3A%5B%5B144.195%2C509.5326346%2C405.5598259599999%2C519.0999153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=21">“A few standard architectures and their capacity for collapse.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 21</a></span>)</span>
 
 *   <span style="color: rgba(0, 0, 0, 0.95);">deterministic algorithm 确定性算法</span>
 
-*   $s_x=\text{Enc}(x)$、$s_y=\text{Enc}(y)$，是编码器 Enc 压缩提取后的**<span style="color: rgb(0, 0, 0);"><span style="">低维特征表征</span></span>**
+*   $s_x=\text{Enc}(x)$、$s_y=\text{Enc}(y)$，是编码器 Enc 压缩提取后的**<span style="color: rgb(0, 0, 0);">低维特征表征</span>**
 
-    *   **<span style="color: rgb(0, 0, 0);"><span style="">s = State</span></span>** 中文：**<span style="color: rgb(0, 0, 0);"><span style="">状态表征 / 内在状态向量</span></span>**
+    *   **<span style="color: rgb(0, 0, 0);">s = State</span>** 中文：**<span style="color: rgb(0, 0, 0);">状态表征 / 内在状态向量</span>**
 
-    *   这套符号来自 LeCun 提出的**<span style="color: rgb(0, 0, 0);"><span style="">世界模型 / JEPA 联合嵌入预测架构</span></span>**
+    *   这套符号来自 LeCun 提出的**<span style="color: rgb(0, 0, 0);">世界模型 / JEPA 联合嵌入预测架构</span>**
 
     *   <span style="background-color: rgba(255, 212, 0, 0.5);">编码器<span class="math">$\text{Enc}$</span>把原始观测压缩成</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">内在状态s</span></span>**<span style="background-color: rgba(255, 212, 0, 0.5);">，只保留对预测、匹配有用的核心信息</span>
 
@@ -99,6 +99,38 @@ $itemKey: 7XMIGEM4
 *   <span style="background-color: rgba(255, 212, 0, 0.5);">坍缩：模型找到了一条 </span>**<span style="background-color: rgba(255, 212, 0, 0.5);">偷懒的</span>**<span style="background-color: rgba(255, 212, 0, 0.5);"> “作弊捷径”，不再学习数据内在依赖关系</span>
 
     *
+
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2225%22%2C%22position%22%3A%7B%22pageIndex%22%3A24%2C%22rects%22%3A%5B%5B142.202%2C495.9666346%2C518.40272738%2C505.53391530000005%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2225%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=25">“The Joint-Embedding Predictive Architecture (JEPA) consists of two encoding branches.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2225%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 25</a></span>)</span>
+
+*   <span style="color: rgba(0, 0, 0, 0.95);">eschew sth. 避开某物，主动刻意摒弃（主观选择不沾染）</span>
+
+*   chew sth. <span style="color: rgba(0, 0, 0, 0.95);">咀嚼某物</span>
+
+*   <span style="color: rgba(0, 0, 0, 0.95);">elimination round 淘汰赛</span>
+
+*   **<span style="color: rgba(0, 0, 0, 0.95);">velocity /vəˈlɒsəti/n. 速度；速率（矢量）</span>**
+
+    *   <span style="color: rgba(0, 0, 0, 0.95);">核心：带方向的速度（矢量），区别于 speed（速率，仅大小、标量）</span>
+
+*   隐变量预测模块$\text{Pred}(s_x,\mathcal{Z})$：
+
+    *   <span style="color: rgb(0, 0, 0);"><span style="">z</span></span>：隐变量，取值空间  $\mathcal{Z}$
+
+    *   $\text{Pred}(s_x,\mathcal{Z})$ <span style="background-color: rgba(255, 102, 102, 0.5);">：遍历全部z后，能生成一整套全部合理的 <span class="math">$\tilde{s}_y$</span> 集合</span>
+
+*   隐变量<span style="color: rgb(0, 0, 0);"><span style="">z：</span></span>
+
+    *   隐变量<span style="color: rgb(0, 0, 0);"><span style="">z</span></span>控制多组可行预测，每次 预测器选择一个 z 产生预测
+
+    *   <span style="background-color: rgba(255, 102, 102, 0.5);">隐变量</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">z</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">只负责离散 / 有限语义选择，</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">z</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">仅编码少数关键分支（左 / 右转、物体姿态），维度极低、容量可控，不会出现之前说的 “任意</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">y</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">都能零误差” 的坍缩问题</span>
+
+*   编码器 Enc
+
+    *   <span style="background-color: rgba(255, 102, 102, 0.5);">编码器 <span class="math">$\text{Enc}(y)$</span></span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);"> </span></span><span style="background-color: rgba(255, 102, 102, 0.5);">具备</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">不变性</span></span>**<span style="background-color: rgba(255, 102, 102, 0.5);">：多个视觉上完全不同的原始</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">y</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">，只要核心语义一致，会输出完全相同的<span class="math">$s_y$</span></span>
+
+    *   编码器过滤冗余噪声：无关细节直接丢弃，模型不用学习无意义纹理
+
+*
 
 ### 👩🏻‍💻 Method
 

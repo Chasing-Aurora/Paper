@@ -54,33 +54,9 @@
               "icon": "lucide-file",
               "title": "组卡和租卡"
             }
-          },
-          {
-            "id": "cfe34932deeb708f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "方向/World model/JEPA/V-JEPA-GB8P39Y2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "V-JEPA-GB8P39Y2"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/JEPA/V-JEPA-GB8P39Y2.md",
+                "file": "通用/组卡和租卡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "V-JEPA-GB8P39Y2 的大纲"
+              "title": "组卡和租卡 的大纲"
             }
           },
           {
@@ -283,15 +259,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfe34932deeb708f",
+  "active": "2038aa4176019822",
   "lastOpenFiles": [
+    "方向/World model/JEPA/V-JEPA-GB8P39Y2.md",
     "方向/World model/JEPA/JEPA-7XMIGEM4.md",
     "通用/组卡和租卡.md",
     "通用/阅读/软件+插件+阅读.md",
     "方向/World model/JEPA/I-JEPA-MTP4MH69.md",
     "方向/World model/JEPA/(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md",
     "方向/World model/电影.md",
-    "方向/World model/JEPA/V-JEPA-GB8P39Y2.md",
     "经典论文精读/视觉自监督模型/BYOL.md",
     "经典论文精读/视觉自监督模型/Moco.md",
     "经典论文精读/视觉自监督模型/BEIT.md",
