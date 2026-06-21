@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2355
+$version: 2366
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -171,6 +171,8 @@ $itemKey: 7XMIGEM4
 <!---->
 
 *
+
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2230%22%2C%22position%22%3A%7B%22pageIndex%22%3A29%2C%22rects%22%3A%5B%5B144.195%2C413.3176346%2C273.17779342000006%2C422.88491530000005%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2230%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=30">“Hierarchical JEPA (H-JEPA)”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2230%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 30</a></span>)</span>
 
 ### 👩🏻‍💻 Method
 
