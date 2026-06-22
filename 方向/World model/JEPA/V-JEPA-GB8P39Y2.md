@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2866
+$version: 2873
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -157,7 +157,11 @@ $itemKey: GB8P39Y2
 
 #### 对比I-JEPA 和 V-JEPA——掩码和编码的顺序
 
-*
+*   <span style="background-color: rgba(255, 102, 102, 0.5);">我们在 x-编码器的输入以及 y-编码器的输出来应用掩码</span>
+
+    *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B349.41498437879994%2C465.03835%2C556.6874976216002%2C475.00095%5D%2C%5B315.213%2C453.08335%2C556.9718682909003%2C463.04595%5D%2C%5B315.213%2C441.12835%2C382.67504278548023%2C451.09095%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%224%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=4">“We apply masking at the input of the x-encoder, and at the output of the y-encoder to construct contextualized targets”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 4</a></span>)</span>
+
+    *
 
 ### 📌 To be resolved
 
