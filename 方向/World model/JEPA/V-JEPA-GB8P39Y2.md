@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2879
+$version: 2895
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -120,6 +120,12 @@ $itemKey: GB8P39Y2
 *   **都是 VIT** 处理了编码解码预测，所以 里面都会涉及到的 注意力机制的
 
     *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B491.4300082828404%2C441.12835%2C555.3106996053604%2C451.09095%5D%2C%5B315.213%2C429.17235%2C555.3017452204799%2C439.13495%5D%2C%5B315.213%2C417.21735%2C555.3019962779995%2C427.17995%5D%2C%5B314.714%2C405.26234999999997%2C521.03084740598%2C415.22495%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%224%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=4">“The encoder is parameterized using standard ViT networks, while the predictor is a narrow transformer implemented using 12 blocks with an embedding dimension of 384.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 4</a></span>)</span>
+
+*   由于**ViT网络处理的是一维的token序列**，我们必须将输入片段转换为一维的token序列
+
+    *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%2216%22%2C%22position%22%3A%7B%22pageIndex%22%3A15%2C%22rects%22%3A%5B%5B470.71246153104%2C636.5653500000001%2C555.3097060818001%2C646.777015%5D%2C%5B56.693%2C624.6093500000001%2C463.06502312559957%2C634.57195%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2216%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=16">“Since ViT networks process a 1D sequence of tokens, we must convert an input video clip into a 1D token sequence.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2216%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 16</a></span>)</span>
+
+    *
 
 #### 对比I-JEPA 和 V-JEPA——训练的梯度闭环
 
