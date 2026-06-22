@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2646
+$version: 2650
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -64,6 +64,16 @@ $itemKey: GB8P39Y2
     *   <span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">比如求一个数的因子,正负的1和它本身是这个数最显而易见的解，所以这两个因子就是平凡解，其他的是不平凡的</span></span>
 
 *   For ease of exposition：为便于阐述 / 方便说明
+
+*   Median Absolute Deviation（MAD，中位数绝对偏差）：
+
+    *   <span style="color: rgba(0, 0, 0, 0.95);">MAD=Med(∣</span>*<span style="color: rgba(0, 0, 0, 0.95);">xi</span>*<span style="color: rgba(0, 0, 0, 0.95);">​−Med(</span>*<span style="color: rgba(0, 0, 0, 0.95);">X</span>*<span style="color: rgba(0, 0, 0, 0.95);">)∣)</span>
+
+    *   修正 MAD（常用）： $MAD_{corrected}$ <span style="color: rgba(0, 0, 0, 0.95);">​=1.4826×MAD</span>
+
+    *   <span style="color: rgba(0, 0, 0, 0.95);"><span style="background-color: rgba(255, 212, 0, 0.5);">MAD用两次中位数，极端离群点几乎不影响结果，远优于标准差</span></span>
+
+    *   <span style="color: rgba(0, 0, 0, 0.95);">衡量数据围绕中位数的典型离散幅度</span>
 
 *
 
