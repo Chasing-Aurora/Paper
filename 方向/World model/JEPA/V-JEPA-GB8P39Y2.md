@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2586
+$version: 2602
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -56,7 +56,7 @@ $itemKey: GB8P39Y2
 
 *   the transformation (or corruption) ：蜕变 和 腐化
 *   distinct predictions：独立 / 不同 / 相异的预测结果
-*
+*   trivial solution：
 
 ### 💧 Data
 
