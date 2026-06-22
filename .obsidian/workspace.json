@@ -103,8 +103,7 @@
               "title": "发展路线"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "方向/World model/JEPA/发展路线.md",
+                "file": "通用/阅读/软件+插件+阅读.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "发展路线 的大纲"
+              "title": "软件+插件+阅读 的大纲"
             }
           },
           {
@@ -307,11 +306,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e85e2cf405bc0713",
+  "active": "2b56e8765e6e65d0",
   "lastOpenFiles": [
     "通用/组卡和租卡.md",
-    "通用/阅读/软件+插件+阅读.md",
     "方向/World model/JEPA/发展路线.md",
+    "通用/阅读/软件+插件+阅读.md",
     "imgs/2026-06-21/file-2026-06-21-122459367.png",
     "imgs/2026-06-21/file-2026-06-21-121139067.png",
     "imgs/2026-06-21/file-2026-06-21-121137708.png",
