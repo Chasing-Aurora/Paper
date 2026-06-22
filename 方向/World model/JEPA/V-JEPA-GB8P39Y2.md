@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2683
+$version: 2723
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -118,8 +118,13 @@ $itemKey: GB8P39Y2
 *   <span style="background-color: rgba(255, 212, 0, 0.5);">I-JEPA 和 V-JEPA都是 自监督的学习方法！！！</span>
 
     *   <span style="background-color: rgba(255, 212, 0, 0.5);">都是 预训练的模型，可以用于 后续的微调，理解他们就像理解 Bert 模型一样</span>
-    *   <span style="background-color: rgba(255, 212, 0, 0.5);">我们的最终目标是构建一个  通用的编码器！！！</span>
+
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">我们的最终目标是构建一个  </span>**<span style="background-color: rgba(255, 212, 0, 0.5);">通用的x-encoder</span>**<span style="background-color: rgba(255, 212, 0, 0.5);">！！！所以 训练的 时候y-encodeer 的输出就是 </span>**<span style="background-color: rgba(255, 212, 0, 0.5);">实际的真正的 embedding </span>**<span style="background-color: rgba(255, 212, 0, 0.5);">！！！</span>
+
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">目标就是 </span>**<span style="background-color: rgba(255, 212, 0, 0.5);">sy_hat 和  实际的sy</span>**<span style="background-color: rgba(255, 212, 0, 0.5);"> 之间的 最小化距离</span>！！！
+
     *   <span style="color: rgba(0, 0, 0, 0.95);">non-contrastive methods（非对比式）、非生成式</span>
+
     *
 
 ### 📌 To be resolved
