@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2650
+$version: 2675
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -65,6 +65,8 @@ $itemKey: GB8P39Y2
 
 *   For ease of exposition：为便于阐述 / 方便说明
 
+#### MAD
+
 *   Median Absolute Deviation（MAD，中位数绝对偏差）：
 
     *   <span style="color: rgba(0, 0, 0, 0.95);">MAD=Med(∣</span>*<span style="color: rgba(0, 0, 0, 0.95);">xi</span>*<span style="color: rgba(0, 0, 0, 0.95);">​−Med(</span>*<span style="color: rgba(0, 0, 0, 0.95);">X</span>*<span style="color: rgba(0, 0, 0, 0.95);">)∣)</span>
@@ -75,10 +77,27 @@ $itemKey: GB8P39Y2
 
     *   <span style="color: rgba(0, 0, 0, 0.95);">衡量数据围绕中位数的典型离散幅度</span>
 
-#### 统计学原理
+#### 统计学原理——<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">损失函数与最优预测器</span></span>
 
-基于统计学中关于不同损失函数下最优预测器的性质。\
-**- 最小二乘误差（ℓ2​ 损失）**：在最小二乘误差（即最小化 ∑(yi​−y^​i​)2）的准则下，最优预测器是条件均值 E\[Y∣X]。**- 最小绝对误差（ℓ1​ 损失）**：在最小绝对误差（即最小化 ∑∣yi​−y^​i​∣）的准则下，最优预测器是条件中位数 median(Y∣X)。
+*   <span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">在统计学和机器学习中，我们通常希望</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">预测</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">某个未知量 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">Y</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">。我们根据已有的信息 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">X</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">（例如观测数据）来建立一个预测模型，输出预测值 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">Y</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">^</span></span>
+
+    *   <span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">我们的目标通常是找到一个预测器，使得这个损失函数在所有可能的预测值上</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">平均最小化</span></span>**
+
+*   **最小二乘误差（ℓ2​ 损失）**：在最小二乘误差（即最小化 ∑(yi​−y^​i​)2）的准则下，最优预测器是条件均值 E\[Y∣X]
+
+    *   <span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">这意味着，如果你想让预测误差的平方和最小，那么最好的预测方法就是预测 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">Y</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 在给定 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">X</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 条件下的</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">平均值 E(x)</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">。</span></span>
+
+*   **最小绝对误差（ℓ1​ 损失）**：在最小绝对误差（即最小化 ∑∣yi​−y^​i​∣）的准则下，最优预测器是条件中位数 median(Y∣X)
+
+    *   <span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">这意味着，如果你想让预测误差的绝对值之和最小，那么最好的预测方法就是预测 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">Y</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 在给定 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">X</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 条件下的</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">中位数 median(x)</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">。</span></span>
+
+#### 期望梯度
+
+*   <span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">∇</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">θ</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">​: 这是一个</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">梯度算子</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">，表示对模型参数 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">θ</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 求</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">偏导</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">。在这里，</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">θ</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 代表编码器 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">Eθ</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">​ 的参数</span></span>
+
+*   <span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">E: 这是一个</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">期望算子</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">，表示对随机变量求取其平均值。在统计学中，期望常用来表示一个随机变量的平均行为</span></span>
+
+*
 
 ### 💧 Data
 
