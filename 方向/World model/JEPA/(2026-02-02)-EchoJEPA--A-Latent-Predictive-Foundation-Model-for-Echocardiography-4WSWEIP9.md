@@ -3,7 +3,7 @@ tags: []
 parent: 'EchoJEPA: A Latent Predictive Foundation Model for Echocardiography'
 collections:
     - 'World model'
-$version: 1770
+$version: 2517
 $libraryID: 1
 $itemKey: 4WSWEIP9
 
@@ -42,7 +42,7 @@ $itemKey: 4WSWEIP9
 
 ***
 
-<a href="./(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md" class="internal-link" zhref="zotero://note/u/4WSWEIP9/?ignore=1" ztype="znotelink">(2026/02/02) EchoJEPA: A Latent Predictive Foundation Model for Echocardiography</a>
+<a href="./(2026-02-02)-EchoJEPA--A-Latent-Predictive-Foundation-Model-for-Echocardiography-4WSWEIP9.md" rel="noopener noreferrer nofollow" zhref="zotero://note/u/4WSWEIP9/?ignore=1" ztype="znotelink" class="internal-link">(2026/02/02) EchoJEPA: A Latent Predictive Foundation Model for Echocardiography</a>
 
 ### 💧 Data
 
@@ -90,7 +90,12 @@ $itemKey: 4WSWEIP9
     *   经过2018年以来视觉领域对比学习的蓬勃发展，其基本的训练框架基本统一，并且有用的tricks也被互相借鉴和验证
     *   所以 看看相关工作的 innovation
 
+*   分层 JEPA（H-JEPA, Hierarchical JEPA），每一层就可以看作 传统网络的一层，利用Resnet等的技巧！残差连接+注意力机制！
+
+    *   尺度、多粒度的多模态建模，可以利用mdfformer 的深层监督哦
+
 <!---->
 
 *   \~\~多模态的JEPA：结合sam 的输入语言和 图片，能够进一步 提高分割的效果！
 *   在 **流形（Manifold）** 中进行了推演，把握了“彻底放弃像素重建、直接在抽象空间中推演环境演变”的核心
+*

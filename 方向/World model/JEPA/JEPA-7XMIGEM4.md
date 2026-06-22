@@ -3,7 +3,7 @@ tags: []
 parent: 'Introduction to Latent Variable Energy-Based Models: A Path Towards Autonomous Machine Intelligence'
 collections:
     - JEPA
-$version: 2377
+$version: 2517
 $libraryID: 1
 $itemKey: 7XMIGEM4
 
@@ -114,19 +114,19 @@ $itemKey: 7XMIGEM4
 
 *   隐变量预测模块$\text{Pred}(s_x,\mathcal{Z})$：
 
-    *   <span style="color: rgb(0, 0, 0);"><span style="">z</span></span>：隐变量，取值空间  $\mathcal{Z}$
+    *   <span style="color: rgb(0, 0, 0);">z</span>：隐变量，取值空间  $\mathcal{Z}$
 
     *   $\text{Pred}(s_x,\mathcal{Z})$ <span style="background-color: rgba(255, 102, 102, 0.5);">：遍历全部z后，能生成一整套全部合理的 <span class="math">$\tilde{s}_y$</span> 集合</span>
 
-*   隐变量<span style="color: rgb(0, 0, 0);"><span style="">z：</span></span>
+*   隐变量<span style="color: rgb(0, 0, 0);">z：</span>
 
-    *   隐变量<span style="color: rgb(0, 0, 0);"><span style="">z</span></span>控制多组可行预测，每次 预测器选择一个 z 产生预测
+    *   隐变量<span style="color: rgb(0, 0, 0);">z</span>控制多组可行预测，每次 预测器选择一个 z 产生预测
 
     *   <span style="background-color: rgba(255, 102, 102, 0.5);">隐变量</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">z</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">只负责离散 / 有限语义选择，</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">z</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">仅编码少数关键分支（左 / 右转、物体姿态），维度极低、容量可控，不会出现之前说的 “任意</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 102, 102, 0.5);">y</span></span><span style="background-color: rgba(255, 102, 102, 0.5);">都能零误差” 的坍缩问题</span>
 
     *   <span style="background-color: rgba(255, 102, 102, 0.5);"><span class="math">$\boldsymbol{R(z)}$</span> —— 最小化隐变量z的信息量</span>
 
-        *   禁止<span style="color: rgb(0, 0, 0);"><span style="">z</span></span>容量过大，避免就像之前的 生成式<span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2221%22%2C%22position%22%3A%7B%22pageIndex%22%3A20%2C%22rects%22%3A%5B%5B86.4%2C509.5326346%2C131.73058323%2C519.0999153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=21">“Figure 10”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 21</a></span>)</span>的b图 的：：： “任意<span style="color: rgb(0, 0, 0);"><span style="">y</span></span>都能零误差拟合” 的坍缩问题
+        *   禁止<span style="color: rgb(0, 0, 0);">z</span>容量过大，避免就像之前的 生成式<span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2221%22%2C%22position%22%3A%7B%22pageIndex%22%3A20%2C%22rects%22%3A%5B%5B86.4%2C509.5326346%2C131.73058323%2C519.0999153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=21">“Figure 10”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 21</a></span>)</span>的b图 的：：： “任意<span style="color: rgb(0, 0, 0);">y</span>都能零误差拟合” 的坍缩问题
 
 *   编码器 Enc
 
@@ -138,7 +138,7 @@ $itemKey: 7XMIGEM4
 
 *   四条约束联合杜绝模型坍缩（collapse）
 
-    *   最小化  $-I$ <span style="color: rgb(0, 0, 0);"><span style=""></span></span>等价于**<span style="color: rgb(0, 0, 0);"><span style="">最大化信息量</span></span>**
+    *   最小化  $-I$  等价于**<span style="color: rgb(0, 0, 0);">最大化信息量</span>**
 
     *   $\boldsymbol{R(z)}$ —— 最小化隐变量<span style="color: rgb(0, 0, 0);">z</span>的信息量
 
@@ -166,13 +166,66 @@ $itemKey: 7XMIGEM4
 
 #### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2228%22%2C%22position%22%3A%7B%22pageIndex%22%3A27%2C%22rects%22%3A%5B%5B144.195%2C456.5176346%2C280.89382712%2C466.08491530000003%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2228%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=28">“Training a JEPA with VICReg.”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2228%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 28</a></span>)</span>
 
-*
+*   **VICReg = Variance-Invariance-Covariance Regularization**\
+    方差 - 不变性 - 协方差正则化，是经典 \*\* 无样本对比（non-sample-contrastive）\*\* 自监督正则方案，2022 年提出，是早期 JEPA 标配防坍缩手段
 
 <!---->
 
-*
+*   ## <span style="color: rgb(0, 0, 0);"><span style="">VICReg 的局限（也是后来 SigReg 改进的点）</span></span>
+
+    1.  <span style="color: rgb(0, 0, 0);"><span style="">仅约束</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">二阶统计量（方差、协方差）</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">，只保证维度去相关、方差足够，</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">不约束整体分布形态</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">；</span></span><span style="color: rgb(0, 0, 0);"><span style="">哪怕维度不相关，整体分布依然偏离标准高斯，训练不稳定、容易出现梯度消失；</span></span>
+
+    2.  <span style="color: rgb(0, 0, 0);"><span style="">超参繁多：方差权重、协方差权重、隐变量正则权重、预测损失权重，调参成本极高；</span></span>
+
+    3.  <span style="color: rgb(0, 0, 0);"><span style="">依赖 Exp 扩张器强行升维，增加网络参量与计算开销；</span></span>
+
+*   **<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">SIGReg = Sketched Isotropic Gaussian Regularization</span></span>**<span style="background-color: rgba(255, 212, 0, 0.5);"> 草图式各向同性高斯正则化，是 2025 年 LeJEPA 论文提出的新一代正则方案，专门替代 VICReg</span>
+
+    *   彻底重构正则逻辑，抛弃协方差二阶约束，直接做全局高斯分布匹配，解决 VICReg 调参难、开销大、无理论保障的短板，是当前 LeCun 世界模型标准配置
 
 #### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2230%22%2C%22position%22%3A%7B%22pageIndex%22%3A29%2C%22rects%22%3A%5B%5B144.195%2C413.3176346%2C273.17779342000006%2C422.88491530000005%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2230%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=30">“Hierarchical JEPA (H-JEPA)”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2230%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 30</a></span>)</span>
+
+*   \[coarse manners/laughter]"  粗俗的举止／笑声
+
+*   两层堆叠的 JEPA
+
+    *   底层 JEPA：负责**<span style="color: rgb(0, 0, 0);"><span style="">短期、精细</span></span>**预测，建模局部瞬时变化
+    *   上层 JEPA：负责**<span style="color: rgb(0, 0, 0);"><span style="">长期、粗粒度</span></span>**预测，建模全局长远趋势、物体运动规划
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">上层不再读取原始像素，直接把 JEPA-1 输出的低层表征<span class="math">$s_1$</span> 当作输入</span>
+    *
+
+*   使用场景：
+
+    *   长时序视频预测 / 视频世界模型（最典型）
+    *   机器人时序规划与具身智能
+    *   <span style="background-color: rgba(255, 212, 0, 0.5);">尺度、多粒度的多模态建模</span>
+    *
+
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2232%22%2C%22position%22%3A%7B%22pageIndex%22%3A31%2C%22rects%22%3A%5B%5B144.195%2C508.0296346%2C370.37690406%2C517.5969153%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2232%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=32">“Hierarchical JEPA for Mode-2 hierarchical planning”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2232%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 32</a></span>)</span>
+
+*   <span style="color: rgb(0, 0, 0);"><span style="">Mode-2 = </span></span>**<span style="color: rgb(0, 0, 0);"><span style="">代价驱动分层规划</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">：</span></span>
+
+1.  <span style="color: rgb(0, 0, 0);"><span style="">高层只负责优化长期全局代价，输出抽象指令；</span></span>
+
+2.  <span style="color: rgb(0, 0, 0);"><span style="">高层将任务拆解为子目标代价下发底层；</span></span>
+
+3.  <span style="color: rgb(0, 0, 0);"><span style="">底层优化局部子代价，输出可执行物理动作；</span></span><span style="color: rgb(0, 0, 0);"><span style="">两张图都属于 Mode-2，区别仅在于是否建模环境不确定性</span></span>
+
+*   ## <span style="color: rgb(0, 0, 0);"><span style="">规划逻辑（自上而下确定式规划）</span></span>
+
+1.  **<span style="color: rgb(0, 0, 0);"><span style="">顶层先规划</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">：</span><span style="background-color: rgba(255, 102, 102, 0.5);">Actor2 生成抽象动作序列 </span></span><span style="background-color: rgba(255, 102, 102, 0.5);"><span class="math">$a2[2],a2[4]$</span></span><span style="color: rgb(0, 0, 0);"><span style=""> ，最小化全局代价 </span></span> $C(s2[4])$ <span style="color: rgb(0, 0, 0);"><span style="">，规划长期宏观路线；</span></span>
+
+2.  **<span style="color: rgb(0, 0, 0);"><span style="">拆解子目标</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">：</span><span style="background-color: rgba(255, 212, 0, 0.5);">每个高层动作对应一个中间代价 </span></span><span style="background-color: rgba(255, 212, 0, 0.5);"><span class="math">$C(s[2]),C(s[4])$</span> </span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">，下发给底层作为子任务</span></span>
+
+3.  **<span style="color: rgb(0, 0, 0);"><span style="">底层执行</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">：</span><span style="background-color: rgba(255, 102, 102, 0.5);">Actor1 生成精细底层动作序列</span><span style="">，逐个完成子目标；</span></span>
+
+4.  <span style="color: rgb(0, 0, 0);"><span style="">核心前提：</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">环境完全确定</span></span>**<span style="color: rgb(0, 0, 0);"><span style="">，给定状态s+ 动作a，未来状态唯一，没有随机性，预测器不需要隐变量z。</span></span>
+
+*   <span style="background-color: rgba(255, 212, 0, 0.5);">无隐变量</span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">z</span></span><span style="background-color: rgba(255, 212, 0, 0.5);">，预测是</span>**<span style="color: rgb(0, 0, 0);"><span style="background-color: rgba(255, 212, 0, 0.5);">单值确定输出</span></span>**
+
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ963ASFR%22%2C%22pageLabel%22%3A%2233%22%2C%22position%22%3A%7B%22pageIndex%22%3A32%2C%22rects%22%3A%5B%5B144.195%2C461.5076346%2C498.69618832%2C471.07491530000004%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2233%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/Z963ASFR?page=33">“Hierarchical JEPA for Mode-2 hierarchical planning in an uncertain environment”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FG5N54RJ6%22%5D%2C%22locator%22%3A%2233%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/G5N54RJ6">Dawid 和 LeCun, 2024, p. 33</a></span>)</span>
+
+*   <span style="color: rgba(0, 0, 0, 0.95);">life trajectories 人生发展轨迹</span>
 
 ### 👩🏻‍💻 Method
 
