@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2675
+$version: 2683
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -91,7 +91,7 @@ $itemKey: GB8P39Y2
 
     *   <span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">这意味着，如果你想让预测误差的绝对值之和最小，那么最好的预测方法就是预测 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">Y</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 在给定 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">X</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 条件下的</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">中位数 median(x)</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">。</span></span>
 
-#### 期望梯度
+#### 计算的梯度
 
 *   <span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">∇</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">θ</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">​: 这是一个</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">梯度算子</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">，表示对模型参数 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">θ</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 求</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">偏导</span></span>**<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">。在这里，</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">θ</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);"> 代表编码器 </span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">Eθ</span></span>*<span style="color: rgb(18, 18, 18);"><span style="background-color: rgba(255, 212, 0, 0.5);">​ 的参数</span></span>
 
