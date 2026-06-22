@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2873
+$version: 2879
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -160,6 +160,10 @@ $itemKey: GB8P39Y2
 *   <span style="background-color: rgba(255, 102, 102, 0.5);">我们在 x-编码器的输入以及 y-编码器的输出来应用掩码</span>
 
     *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B349.41498437879994%2C465.03835%2C556.6874976216002%2C475.00095%5D%2C%5B315.213%2C453.08335%2C556.9718682909003%2C463.04595%5D%2C%5B315.213%2C441.12835%2C382.67504278548023%2C451.09095%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%224%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=4">“We apply masking at the input of the x-encoder, and at the output of the y-encoder to construct contextualized targets”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 4</a></span>)</span>
+
+    *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F2UELNU6U%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B50.111999999999995%2C397.3070784000001%2C286.36174859999994%2C406.12397940000005%5D%2C%5B50.11200000000002%2C385.3520784000001%2C206.65817380000013%2C394.16897940000007%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%224%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/2UELNU6U?page=4">“Note that the target blocks are obtained by masking the output of the target-encoder, not the input”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FZ6XJ6D55%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/Z6XJ6D55">Assran 等, 2023, p. 4</a></span>)</span>
+
+    *   核心都是 来自于 data2vec，因为<span style="color: rgba(0, 0, 0, 0.95);">掩码编码器</span>**<span style="color: rgba(0, 0, 0, 0.95);">输出</span>**<span style="color: rgba(0, 0, 0, 0.95);">：遮挡了已经注意力机制编码完的语义向量，每一个token依赖了上下文推理抽象语义，<span style="background-color: rgba(255, 102, 102, 0.5);">因为这个是 目标编码器，是真实实际的数据，所以 要求每一个token携带全局的高层语义信息！！！</span></span>
 
     *
 
