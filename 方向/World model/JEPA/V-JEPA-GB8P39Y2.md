@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2903
+$version: 2941
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -124,6 +124,8 @@ $itemKey: GB8P39Y2
 *   由于**ViT网络处理的是一维的token序列**，我们必须将输入片段转换为一维的token序列
 
     *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%2216%22%2C%22position%22%3A%7B%22pageIndex%22%3A15%2C%22rects%22%3A%5B%5B470.71246153104%2C636.5653500000001%2C555.3097060818001%2C646.777015%5D%2C%5B56.693%2C624.6093500000001%2C463.06502312559957%2C634.57195%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2216%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=16">“Since ViT networks process a 1D sequence of tokens, we must convert an input video clip into a 1D token sequence.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2216%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 16</a></span>)</span>
+
+*   公开了 训练为评估的超参数！！！<span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%2217%22%2C%22position%22%3A%7B%22pageIndex%22%3A16%2C%22rects%22%3A%5B%5B88.209%2C732.6191817499999%2C286.8057936%2C740.908816%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2217%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=17">“pretraining hyper-parameters for V-JEPA.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2217%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 17</a></span>)</span>！！！
 
 #### 对比I-JEPA 和 V-JEPA——训练的梯度闭环
 
