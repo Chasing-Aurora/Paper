@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2537
+$version: 2578
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -38,7 +38,7 @@ $itemKey: GB8P39Y2
 
 ***
 
-### abstract
+### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B75.6552994%2C395.21351745%2C151.32775120000002%2C407.289043%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%221%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=1">“Introduction”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 1</a></span>)</span>
 
 *   retina：视网膜，<span style="color: rgba(0, 0, 0, 0.95);">眼球内壁感光薄膜，含视锥、视杆细胞，接收光线转化信号传给大脑形成视觉</span>
 
@@ -46,9 +46,13 @@ $itemKey: GB8P39Y2
 
 *   posit：**<span style="color: rgba(0, 0, 0, 0.95);">假定；假设</span>**<span style="color: rgba(0, 0, 0, 0.95);">（学术高频）</span>
 
+    *   <span style="color: rgba(0, 0, 0, 0.95);">positive：adj. 肯定的；实证的</span>
+
 *   <span style="color: rgba(0, 0, 0, 0.95);">visual stimuli：视觉刺激</span>
 
 *   <span style="color: rgb(18, 18, 18);"><span style="background-color: rgb(255, 255, 255);">arsenal of tools：</span></span><span style="color: rgba(0, 0, 0, 0.95);">一整套完备、多样、可供随时取用的工具 / 手段 / 方法</span>
+
+### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%223%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B77.2586363%2C478.52751745000006%2C238.2488107000001%2C490.60304300000007%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%223%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=3">“Methodology: Video-JEPA”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%223%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 3</a></span>)</span>
 
 *
 
