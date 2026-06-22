@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2578
+$version: 2586
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -54,6 +54,8 @@ $itemKey: GB8P39Y2
 
 ### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%223%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B77.2586363%2C478.52751745000006%2C238.2488107000001%2C490.60304300000007%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%223%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=3">“Methodology: Video-JEPA”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%223%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 3</a></span>)</span>
 
+*   the transformation (or corruption) ：蜕变 和 腐化
+*   distinct predictions：独立 / 不同 / 相异的预测结果
 *
 
 ### 💧 Data
