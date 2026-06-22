@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2735
+$version: 2774
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -115,6 +115,8 @@ $itemKey: GB8P39Y2
 
 ### 🙋‍♀️ Key Records
 
+#### 对比I-JEPA 和 V-JEPA——核心思想
+
 *   <span style="background-color: rgba(255, 212, 0, 0.5);">I-JEPA 和 V-JEPA都是 自监督的学习方法！！！</span>
 
     *   <span style="background-color: rgba(255, 212, 0, 0.5);">都是 预训练的模型，可以用于 后续的微调，理解他们就像理解 Bert 模型一样</span>
@@ -125,7 +127,9 @@ $itemKey: GB8P39Y2
 
     *   <span style="color: rgba(0, 0, 0, 0.95);">non-contrastive methods（非对比式）、非生成式</span>
 
-    *
+#### 对比I-JEPA 和 V-JEPA——掩码策略——multi-block 的掩码策略
+
+*
 
 ### 📌 To be resolved
 
