@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2530
+$version: 2537
 $libraryID: 1
 $itemKey: GB8P39Y2
 
