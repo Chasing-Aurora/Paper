@@ -115,6 +115,10 @@ $itemKey: GB8P39Y2
 
 ### 🙋‍♀️ Key Records
 
+#### 对比I-JEPA 和 V-JEPA——网络骨干
+
+*   **都是 VIT**
+
 #### 对比I-JEPA 和 V-JEPA——核心思想
 
 *   <span style="background-color: rgba(255, 212, 0, 0.5);">I-JEPA 和 V-JEPA都是 自监督的学习方法！！！</span>
