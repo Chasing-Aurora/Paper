@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -307,7 +307,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8aeefe9cd9fd7bf0",
+  "active": "e85e2cf405bc0713",
   "lastOpenFiles": [
     "通用/组卡和租卡.md",
     "通用/阅读/软件+插件+阅读.md",
