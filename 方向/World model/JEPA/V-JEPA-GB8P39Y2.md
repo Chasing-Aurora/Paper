@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2823
+$version: 2856
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -117,7 +117,8 @@ $itemKey: GB8P39Y2
 
 #### 对比I-JEPA 和 V-JEPA——网络骨干
 
-*   **都是 VIT**
+*   **都是 VIT** 处理了编码解码预测，所以 里面都会涉及到的 注意力机制的
+*
 
 #### 对比I-JEPA 和 V-JEPA——训练的梯度闭环
 
