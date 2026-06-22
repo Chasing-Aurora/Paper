@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2797
+$version: 2823
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -118,6 +118,12 @@ $itemKey: GB8P39Y2
 #### 对比I-JEPA 和 V-JEPA——网络骨干
 
 *   **都是 VIT**
+
+#### 对比I-JEPA 和 V-JEPA——训练的梯度闭环
+
+*   闭环：L1 产生损失给到 x-encoder以及predictor
+*   然后优化 x-encoder以及 predictor
+*   y-encoder 是从 x-encoder 中进行EMA的！！！中途有SG阻挡梯度
 
 #### 对比I-JEPA 和 V-JEPA——核心思想
 
