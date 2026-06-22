@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2619
+$version: 2646
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -62,6 +62,8 @@ $itemKey: GB8P39Y2
 
     *   **<span style="color: rgba(0, 0, 0, 0.95);">一眼就能看出来、极其简单、无信息含量的默认零解</span>**
     *   <span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">比如求一个数的因子,正负的1和它本身是这个数最显而易见的解，所以这两个因子就是平凡解，其他的是不平凡的</span></span>
+
+*   For ease of exposition：为便于阐述 / 方便说明
 
 *
 
