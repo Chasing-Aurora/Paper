@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 3005
+$version: 3009
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -157,7 +157,7 @@ $itemKey: GB8P39Y2
 
 *   评估predictor 的话，需要外接  一个解码器 重新回到了像素空间里面的
 
-    *   冻结 训练好的 通用编码器，然后 **训练单独的解码器 **重建像素
+    *   冻结 训练好的 通用编码器，，仅根据给定的信息重建原始 掩码的像素，然后 **训练单独的解码器 **重建像素
 
     *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%229%22%2C%22position%22%3A%7B%22pageIndex%22%3A8%2C%22rects%22%3A%5B%5B435.8870248703998%2C244.91535000000002%2C555.3060461487999%2C254.87795%5D%2C%5B315.213%2C232.96035%2C555.3040286483993%2C242.92295%5D%2C%5B315.213%2C221.00535000000002%2C556.9705723763991%2C230.96795%5D%2C%5B315.213%2C209.05035%2C437.16640203719953%2C219.01295%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%229%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=9">“use the V-JEPA pretrained models to predict the representations of the missing regions, and then use the decoder to project the representations to pixel space.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%229%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 9</a></span>)</span>
 

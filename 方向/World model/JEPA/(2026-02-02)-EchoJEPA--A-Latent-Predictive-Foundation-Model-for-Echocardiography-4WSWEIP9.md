@@ -3,7 +3,7 @@ tags: []
 parent: 'EchoJEPA: A Latent Predictive Foundation Model for Echocardiography'
 collections:
     - 'World model'
-$version: 2960
+$version: 3009
 $libraryID: 1
 $itemKey: 4WSWEIP9
 
