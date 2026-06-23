@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 2941
+$version: 3005
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -125,7 +125,11 @@ $itemKey: GB8P39Y2
 
     *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%2216%22%2C%22position%22%3A%7B%22pageIndex%22%3A15%2C%22rects%22%3A%5B%5B470.71246153104%2C636.5653500000001%2C555.3097060818001%2C646.777015%5D%2C%5B56.693%2C624.6093500000001%2C463.06502312559957%2C634.57195%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2216%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=16">“Since ViT networks process a 1D sequence of tokens, we must convert an input video clip into a 1D token sequence.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2216%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 16</a></span>)</span>
 
-*   公开了 训练为评估的超参数！！！<span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%2217%22%2C%22position%22%3A%7B%22pageIndex%22%3A16%2C%22rects%22%3A%5B%5B88.209%2C732.6191817499999%2C286.8057936%2C740.908816%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2217%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=17">“pretraining hyper-parameters for V-JEPA.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2217%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 17</a></span>)</span>！！！
+*   公开了 **训练和评估的超参数！！！**<span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%2217%22%2C%22position%22%3A%7B%22pageIndex%22%3A16%2C%22rects%22%3A%5B%5B88.209%2C732.6191817499999%2C286.8057936%2C740.908816%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2217%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=17">“pretraining hyper-parameters for V-JEPA.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2217%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 17</a></span>)</span>！！！
+
+*   大批量生产也是其中一个重要因素，因为在进行无监督表征学习方法（不含负样本）的时候 **大批量生产会起到平滑渐变的作用**
+
+    *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%224%22%2C%22position%22%3A%7B%22pageIndex%22%3A3%2C%22rects%22%3A%5B%5B420.68108856520007%2C137.88835%2C555.5058958309003%2C147.85094999999998%5D%2C%5B315.213%2C125.93335%2C555.3091095743995%2C135.89595%5D%2C%5B315.213%2C113.62108280000001%2C469.96086846479994%2C123.94094999999999%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%224%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=4">“We use a batch size of 3072 for the ViT-L/16 and ViT-H/16 models, and a batch size of 2400 for the ViT-H/16384 model”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%224%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 4</a></span>)</span>
 
 #### 对比I-JEPA 和 V-JEPA——训练的梯度闭环
 
@@ -144,6 +148,20 @@ $itemKey: GB8P39Y2
     *   <span style="background-color: rgba(255, 212, 0, 0.5);">损失的目标就是 </span>**<span style="background-color: rgba(255, 212, 0, 0.5);">sy_hat 和  实际的sy</span>**<span style="background-color: rgba(255, 212, 0, 0.5);"> 之间的 最小化距离</span>！！！
 
     *   <span style="color: rgba(0, 0, 0, 0.95);">non-contrastive methods（非对比式）、非生成式</span>
+
+#### 对比I-JEPA 和 V-JEPA——评估结果
+
+*   通用的模型，不是生成式的
+
+    *   所以评估它们的方法是，**取你已经训练好的编码器的编码部分，然后 用于下游部分！**
+
+*   评估predictor 的话，需要外接  一个解码器 重新回到了像素空间里面的
+
+    *   冻结 训练好的 通用编码器，然后 **训练单独的解码器 **重建像素
+
+    *   <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%229%22%2C%22position%22%3A%7B%22pageIndex%22%3A8%2C%22rects%22%3A%5B%5B435.8870248703998%2C244.91535000000002%2C555.3060461487999%2C254.87795%5D%2C%5B315.213%2C232.96035%2C555.3040286483993%2C242.92295%5D%2C%5B315.213%2C221.00535000000002%2C556.9705723763991%2C230.96795%5D%2C%5B315.213%2C209.05035%2C437.16640203719953%2C219.01295%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%229%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=9">“use the V-JEPA pretrained models to predict the representations of the missing regions, and then use the decoder to project the representations to pixel space.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%229%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 9</a></span>)</span>
+
+    *
 
 #### 对比I-JEPA 和 V-JEPA——掩码策略——multi-block 的掩码策略
 
