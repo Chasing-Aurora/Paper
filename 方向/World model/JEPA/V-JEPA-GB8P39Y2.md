@@ -3,7 +3,7 @@ tags: []
 parent: 'Revisiting Feature Prediction for Learning Visual Representations from Video'
 collections:
     - JEPA
-$version: 3009
+$version: 3209
 $libraryID: 1
 $itemKey: GB8P39Y2
 
@@ -105,6 +105,17 @@ $itemKey: GB8P39Y2
 
 ### 🔬 Experiment
 
+#### <span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%229%22%2C%22position%22%3A%7B%22pageIndex%22%3A8%2C%22rects%22%3A%5B%5B336.00588089999997%2C424.32051745%2C481.8716646999999%2C436.396043%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%229%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=9">“Evaluating the Predictor”</a></span> <span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%229%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 9</a></span>)</span>
+
+*   <span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">quantity，里面有n，代表number，表示数量</span></span>
+
+    *   两个 t 所以就是代表的  是 数量
+    *   **<span style="color: rgb(0, 0, 0);"><span style="background-color: rgb(255, 255, 255);">Quantitative research（定量研究）</span></span>**
+
+*   <span style="color: rgb(25, 27, 31);"><span style="background-color: rgb(255, 255, 255);">quality，没有n，表示质量</span></span>
+
+    *   **<span style="color: rgb(0, 0, 0);"><span style="background-color: rgb(255, 255, 255);">Qualitative research（定性研究）</span></span>**
+
 ### 📜 Conclusion
 
 ## <span style="color: rgb(0, 77, 153);"><span style="background-color: rgb(135, 206, 250);">🤔 Personal Summary</span></span>
@@ -149,6 +160,12 @@ $itemKey: GB8P39Y2
 
     *   <span style="color: rgba(0, 0, 0, 0.95);">non-contrastive methods（非对比式）、非生成式</span>
 
+#### 对比I-JEPA 和 V-JEPA——编码器的输入输出
+
+*   <span style="background-color: rgba(255, 102, 102, 0.5);">context encoder 的输入只是 context</span>！是可以看见的部分，输出通过 predictor 的话是 掩码的部分！！！具体可以参考<span class="highlight" data-annotation="%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2FJQFXTF5V%22%2C%22pageLabel%22%3A%2210%22%2C%22position%22%3A%7B%22pageIndex%22%3A9%2C%22rects%22%3A%5B%5B56.409%2C640.3594%2C195.0550227968001%2C649.3258%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2210%22%7D%7D" ztype="zhighlight"><a href="zotero://open/library/items/JQFXTF5V?page=10">“(a) Visualization Methodology.”</a></span><span class="citation" data-citation="%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F19634653%2Fitems%2F8MBK8GEP%22%5D%2C%22locator%22%3A%2210%22%7D%5D%2C%22properties%22%3A%7B%7D%7D" ztype="zcitation">(<span class="citation-item"><a href="zotero://select/library/items/8MBK8GEP">Bardes 等, 2024, p. 10</a></span>)</span>
+
+*   <span style="background-color: rgba(255, 102, 102, 0.5);">target encoder 的输入是全部的 token</span>，然后输出 之后才会进行 unmask 的操作，因为要保留全局的注意力机制的语义信息！
+
 #### 对比I-JEPA 和 V-JEPA——评估结果
 
 *   通用的模型，不是生成式的
@@ -164,6 +181,8 @@ $itemKey: GB8P39Y2
     *
 
 #### 对比I-JEPA 和 V-JEPA——掩码策略——multi-block 的掩码策略
+
+<span style="background-color: rgba(255, 212, 0, 0.5);">掩码一般采用的是 multi-block的策略，而且掩码率 一般都高的</span>
 
 *   **先采样 target ，然后  直接补集/去掉重复的部分**
 
