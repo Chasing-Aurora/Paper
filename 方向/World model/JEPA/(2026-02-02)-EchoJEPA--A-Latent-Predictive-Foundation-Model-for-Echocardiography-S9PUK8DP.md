@@ -4,7 +4,7 @@ parent: 'EchoJEPA: A Latent Predictive Foundation Model for Echocardiography'
 collections:
     - 'World model'
     - JEPA
-$version: 3320
+$version: 3328
 $libraryID: 1
 $itemKey: S9PUK8DP
 
